@@ -1,0 +1,86 @@
+static char *bitmap1 = "bitmap(name = 'bitmap1',\
+  bitmap = ['c:/rayarttan/sources/rayarttan/res/imageloading.bmp', wxBITMAP_TYPE_BMP, 'ANY']).";
+
+static char *accueil = "dialog(name = 'accueil',\
+  style = 'wxNO_BORDER',\
+  title = 'accueil',\
+  id = 100,\
+  x = 10, y = 10, width = 218, height = 122,\
+  background_colour = '8399B1',\
+  use_dialog_units = 1,\
+  use_system_defaults = 0,\
+  font = [8, 'wxSWISS', 'wxNORMAL', 'wxNORMAL', 0, 'MS Shell Dlg'],\
+  control = [101, wxStaticBitmap, '', 'wxNO_BORDER', 'bitmap', 0, 0, 218, 122, 'bitmap1',\
+      [8, 'wxSWISS', 'wxNORMAL', 'wxNORMAL', 0, 'MS Shell Dlg']]).";
+      
+      
+static char *menu_accueil = "menu(name = 'menu_accueil',\
+  menu = \
+  [\
+    ['&Fichier', 1, '', \
+      ['&Nouveau', 2, ''],\
+      ['&Ouvrir', 3, ''],\
+      ['&Fermer', 4, ''],\
+      [],\
+      ['&Enregistrer', 6, ''],\
+      [],\
+      ['&Quitter', 8, ''],\
+      [],\
+      ['&Préférences', 10, ''],\
+    ],\
+    ['&?', 11, '', \
+      ['&A propos de RayArtTan', 12, ''],\
+    ]\
+  ]).";
+
+static char *menu_principal = "menu(name = 'menu_principal',\
+  menu = \
+  [\
+    ['&Fichier', 100, '', \
+      ['&Nouveau', 101, ''],\
+      ['&Ouvrir', 102, ''],\
+      ['&Fermer', 103, ''],\
+      [],\
+      ['&Enregistrer', 105, ''],\
+      [],\
+      ['&Quitter', 107, ''],\
+      [],\
+      ['&Préférences', 109, ''],\
+    ],\
+    ['&Rendu', 110, '', \
+      ['&Démarrage Rendu', 111, ''],\
+      ['&Arrêt Rendu', 112, ''],\
+    ],\
+    ['&Fenêtre', 113, '', \
+      ['&Afficher/Cacher Propriétés', 114, ''],\
+    ],\
+    ['&?', 115, '', \
+      ['&A propos de RayArtTan', 116, ''],\
+    ]\
+  ]).";
+  
+  
+  static char *image_page = "dialog(name = 'image_page',\
+  style = 'wxRAISED_BORDER | wxCAPTION | wxSYSTEM_MENU',\
+  title = 'Page Image',\
+  id = 100,\
+  x = 10, y = 10, width = 228, height = 150,\
+  background_colour = '8399B1',\
+  use_dialog_units = 1,\
+  use_system_defaults = 0,\
+  font = [8, 'wxSWISS', 'wxNORMAL', 'wxNORMAL', 0, 'MS Shell Dlg'],\
+  control = [101, wxStaticBox, 'Type Rendu', '0', 'staticbox1', 66,43,84,33,\
+      [8, 'wxSWISS', 'wxNORMAL', 'wxNORMAL', 0, 'MS Shell Dlg']],\
+  control = [101, wxStaticBox, 'Taille Image', '0', 'staticbox2', 7,7,206,28,\
+      [8, 'wxSWISS', 'wxNORMAL', 'wxNORMAL', 0, 'MS Shell Dlg']],\
+  control = [6001, wxComboBox, 'default', 'wxCB_DROPDOWN', 'IDC_RENDERTYPE', 72,55,74,75, '', ['default', 'antialiasing'],\
+      [8, 'wxSWISS', 'wxNORMAL', 'wxNORMAL', 0, 'MS Shell Dlg']],\
+  control = [6002, wxComboBox, 'default', 'wxCB_DROPDOWN', 'IDC_IMAGEWIDTH',45,17,50,75, '', ['160','320','640','800','1024','2048'],\
+      [8, 'wxSWISS', 'wxNORMAL', 'wxNORMAL', 0, 'MS Shell Dlg']],\
+  control = [6003, wxComboBox, 'default', 'wxCB_DROPDOWN', 'IDC_IMAGEHEIGHT',147,16,50,75, '', ['160','320','640','800','1024','2048'],\
+      [8, 'wxSWISS', 'wxNORMAL', 'wxNORMAL', 0, 'MS Shell Dlg']],\
+  control = [6004, wxStaticText, 'Largeur:', '0', 'statictext1', 16, 18, 22, 6, '',\
+      [8, 'wxSWISS', 'wxNORMAL', 'wxNORMAL', 0, 'MS Shell Dlg']],\
+  control = [6005, wxStaticText, 'Hauteur :', '0', 'statictext2', 116, 18, 25, 6, '',\
+      [8, 'wxSWISS', 'wxNORMAL', 'wxNORMAL', 0, 'MS Shell Dlg']]
+      ).";

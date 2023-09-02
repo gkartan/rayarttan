@@ -1,0 +1,1795 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ACCUEIL DIALOGEX 0, 0, 218, 122
+STYLE DS_SYSMODAL | WS_POPUP | WS_VISIBLE | WS_BORDER
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         5036,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_SUNKEN | WS_DISABLED,0,0,218,122
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ACCUEIL             BITMAP  DISCARDABLE     "res\\imageloading.bmp"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TEXTURE_GENERAL DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Texture General Page"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Diffuse Color",IDC_COLORDIFFUSE,7,22,111,27
+    CONTROL         "",IDC_BCOLORDIFFUSE,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    15,33,27,14
+    GROUPBOX        "Specular Color",IDC_COLORDIFFUSE2,7,79,112,27
+    CONTROL         "",IDC_BCOLORSPEC,"Button",BS_OWNERDRAW | WS_TABSTOP,15,
+                    88,27,14
+    COMBOBOX        IDC_MATIERENAME,77,5,62,133,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Ambient Color",IDC_COLORAMBIENT,7,50,111,28
+    CONTROL         "",IDC_BCOLORAMB,"Button",BS_OWNERDRAW | WS_TABSTOP,15,
+                    61,27,14
+    GROUPBOX        "Transparent Color",IDC_COLORDIFFUSE3,7,107,113,29,NOT 
+                    WS_VISIBLE
+    CONTROL         "",IDC_BCOLORTRANS,"Button",BS_OWNERDRAW | NOT 
+                    WS_VISIBLE | WS_TABSTOP,15,119,27,14
+    CONTROL         "Texture",IDC_TEXTDIFFUSE,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,68,34,35,13
+    CONTROL         "Texture",IDC_TEXTAMBIENT,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,68,60,35,13
+    CONTROL         "Texture",IDC_TEXTSPECULAR,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,68,88,35,13
+    CONTROL         "Texture",IDC_TEXTTRANSPARENT,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | NOT WS_VISIBLE | WS_TABSTOP,68,118,35,13
+    EDITTEXT        IDC_PHONGSIZE,136,33,48,9,ES_AUTOHSCROLL
+    GROUPBOX        "Phong Exponent",IDC_STATIC,125,23,68,26
+END
+
+IDD_TEXTURE_PROCEDURAL DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Texture Procedural Page"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_PROCEDURE,77,5,62,133,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Color Map",IDC_STATIC,35,25,155,67
+    CONTROL         "List1",IDC_COLORMAP,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_OWNERDRAWFIXED | 
+                    WS_BORDER | WS_TABSTOP,41,37,142,50
+END
+
+IDD_LIGHT_PAGE DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Light Page"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "X:",IDC_STATICPOS,13,44,10,11
+    EDITTEXT        IDC_LIGHTPOSX,25,42,51,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,85,44,10,11
+    EDITTEXT        IDC_LIGHTPOSY,97,42,51,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,158,44,10,11
+    EDITTEXT        IDC_LIGHTPOSZ,170,42,51,12,ES_AUTOHSCROLL
+    LTEXT           "R:",IDC_STATIC,13,84,10,11
+    EDITTEXT        IDC_LIGHTCOLORR,25,82,37,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "G:",IDC_STATIC,70,84,10,11
+    EDITTEXT        IDC_LIGHTCOLORG,82,81,37,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "B:",IDC_STATIC,129,84,10,11
+    EDITTEXT        IDC_LIGHTCOLORB,141,82,36,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    COMBOBOX        IDC_LIGHTTYPE,13,129,74,73,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Color",IDC_LOOKAT,7,71,221,33
+    GROUPBOX        "Position",IDC_POSITION2,7,30,221,33
+    GROUPBOX        "Type",IDC_TYPE,7,116,84,33
+    COMBOBOX        IDC_LIGHTNAME,97,14,56,44,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "List of Lights :",IDC_STATIC,48,16,49,11
+    CONTROL         "",IDC_LIGHTCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,190,
+                    81,27,14
+    PUSHBUTTON      "Del",IDC_LIGHTDELETE,163,14,31,13
+END
+
+IDD_FORMVIEW DIALOG DISCARDABLE  0, 0, 186, 93
+STYLE WS_CHILD | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_CAMERA_PAGE DIALOG DISCARDABLE  0, 0, 235, 167
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Camera Page"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Look At",IDC_LOOKAT,7,38,221,27
+    GROUPBOX        "Position",IDC_POSITION2,7,7,221,28
+    GROUPBOX        "Type",IDC_TYPE,7,131,84,29
+    LTEXT           "X:",IDC_STATIC,13,20,10,11
+    EDITTEXT        IDC_CAMPOSX,25,19,51,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,85,20,10,11
+    EDITTEXT        IDC_CAMPOSY,97,19,51,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,158,20,10,11
+    EDITTEXT        IDC_CAMPOSZ,170,19,51,12,ES_AUTOHSCROLL
+    LTEXT           "X:",IDC_STATIC,13,50,10,11
+    EDITTEXT        IDC_CAMLOOKX,25,49,51,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,85,50,10,11
+    EDITTEXT        IDC_CAMLOOKY,97,49,51,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,158,50,10,11
+    EDITTEXT        IDC_CAMLOOKZ,170,49,51,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_CAMTYPE,15,142,74,75,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Screen size",IDC_SCREEN,7,100,206,28
+    LTEXT           "Width :",IDC_STATIC,13,112,29,11
+    EDITTEXT        IDC_SCREENWIDTH,45,112,51,12,ES_AUTOHSCROLL
+    LTEXT           "Height :",IDC_STATIC,110,112,33,11
+    EDITTEXT        IDC_SCREENHEIGHT,145,111,51,12,ES_AUTOHSCROLL
+    GROUPBOX        "Focus",IDC_FOCALE,130,134,84,26
+    EDITTEXT        IDC_FOCALEVALUE,143,143,51,12,ES_AUTOHSCROLL
+    GROUPBOX        "Up",IDC_TOP,7,68,221,27
+    LTEXT           "X:",IDC_STATIC,13,80,10,11
+    EDITTEXT        IDC_CAMTOPX,25,79,51,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,85,80,10,11
+    EDITTEXT        IDC_CAMTOPY,97,79,51,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,158,80,10,11
+    EDITTEXT        IDC_CAMTOPZ,170,79,51,12,ES_AUTOHSCROLL
+END
+
+IDD_IMAGE_PAGE DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Image Page"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Rendering Type",IDC_TYPE,66,43,84,33
+    COMBOBOX        IDC_RENDERTYPE,72,55,74,75,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Image Size",IDC_SCREEN,7,7,206,28
+    LTEXT           "Width :",-1,13,18,29,11
+    LTEXT           "Height :",-1,110,18,33,11
+    COMBOBOX        IDC_IMAGEWIDTH,45,17,50,75,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_IMAGEHEIGHT,147,16,50,75,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_FRACTAL_PAGE DIALOG DISCARDABLE  0, 0, 235, 220
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Fractal Page"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "r :",IDC_STATICPOS2,15,93,10,11
+    EDITTEXT        IDC_FRACTALCSTR,27,90,51,12,ES_AUTOHSCROLL
+    LTEXT           "i :",IDC_STATICPOS3,15,106,10,11
+    EDITTEXT        IDC_FRACTALCSTI,27,103,51,12,ES_AUTOHSCROLL
+    LTEXT           "j :",IDC_STATICPOS4,15,119,10,11
+    EDITTEXT        IDC_FRACTALCSTJ,27,117,51,12,ES_AUTOHSCROLL
+    LTEXT           "k :",IDC_STATICPOS5,15,133,10,11
+    EDITTEXT        IDC_FRACTALCSTK,27,130,51,12,ES_AUTOHSCROLL
+    GROUPBOX        "Constant (@init)",IDC_STATIC,7,79,82,68
+    EDITTEXT        IDC_FRACTALITER,19,169,23,12,ES_AUTOHSCROLL
+    GROUPBOX        "Max. Iter.",IDC_STATIC,7,158,47,30
+    EDITTEXT        IDC_FRACTALSTEP,72,169,23,12,ES_AUTOHSCROLL
+    GROUPBOX        "Precision",IDC_STATIC,61,158,47,30
+    GROUPBOX        "Fractal Formula",IDC_STATIC,95,70,133,61
+    EDITTEXT        IDC_FRACTALFORMULA,99,82,95,23,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_HSCROLL
+    EDITTEXT        IDC_FRACTALDERIVATE,99,106,95,23,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | WS_HSCROLL
+    GROUPBOX        "Type",IDC_STATIC,95,132,133,23
+    COMBOBOX        IDC_FRACTALTYPE,126,140,80,136,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Optmis. 3DNow!",IDC_FRACTALOPTIM,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,170,196,58,
+                    10
+    EDITTEXT        IDC_FRACTALANGLE,19,197,23,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    GROUPBOX        "Angle",IDC_STATIC,7,186,47,30,NOT WS_VISIBLE
+    GROUPBOX        "Texture",IDC_STATIC,55,189,109,27
+    COMBOBOX        IDC_FRACTALTEXTURE,63,198,66,71,CBS_DROPDOWNLIST | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Edit",IDC_BFRACTALTEXTURE,133,198,24,12
+    PUSHBUTTON      "Save",IDC_FORMULA_RECORD,201,86,21,14
+    GROUPBOX        "Position",IDC_POSITION2,7,7,221,28
+    LTEXT           "X:",IDC_STATIC,13,19,10,11
+    EDITTEXT        IDC_FRACPOSX,25,18,51,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,88,19,10,11
+    EDITTEXT        IDC_FRACPOSY,100,17,51,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,157,19,10,11
+    EDITTEXT        IDC_FRACPOSZ,170,18,51,12,ES_AUTOHSCROLL
+    GROUPBOX        "Rotation",IDC_ROTATION,7,40,221,28
+    LTEXT           "X:",IDC_STATIC,13,51,10,11
+    EDITTEXT        IDC_FRACROTX,25,50,51,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,88,51,10,11
+    EDITTEXT        IDC_FRACROTY,100,49,51,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,157,51,10,11
+    EDITTEXT        IDC_FRACROTZ,170,50,51,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FRACTALLIMIT,185,169,23,12,ES_AUTOHSCROLL
+    GROUPBOX        "Bound Limit",IDC_STATIC,173,158,47,30
+    PUSHBUTTON      "Edit",IDC_FORMULA_DERIVE_EDIT,201,110,21,14
+    EDITTEXT        IDC_FRACTALBAILOUT,127,169,23,12,ES_AUTOHSCROLL
+    GROUPBOX        "Bailout",IDC_STATIC,115,158,54,30
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 170, 174
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About RayArtTan"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "RayArtTan",IDC_STATIC,29,21,40,8,SS_NOPREFIX
+    LTEXT           "Version 1.0",IDC_STATIC,95,21,46,8
+    DEFPUSHBUTTON   "OK",IDOK,7,153,50,14,WS_GROUP
+    LTEXT           "______________________________________",IDC_STATIC,19,
+                    90,138,9
+    LTEXT           "Number of processors :",IDC_STATIC,26,105,81,11
+    LTEXT           "",IDC_NBPROCESSORS,116,107,20,9
+    LTEXT           "Copyright 2002",IDC_STATIC,54,33,48,8
+    CTEXT           "Guimaël CADOU Beg ven Gleu 29910 TREGUNC - FRANCE http://RayArtTan.mailurl.com Email:RayArtTan@mailurl.com ",
+                    IDC_STATIC,24,52,121,33
+    LTEXT           "______________________________________",IDC_STATIC,19,
+                    118,138,9
+    LTEXT           "",IDC_ENREGISTRE,21,138,129,8,SS_NOPREFIX
+    CONTROL         149,IDC_STATIC,"Static",SS_BITMAP,70,7,21,20
+    PUSHBUTTON      "Register",IDREGISTER,113,153,50,14
+END
+
+IDD_REGISTER DIALOG DISCARDABLE  0, 0, 186, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Registration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,6,71,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,71,50,14
+    EDITTEXT        IDC_REGISTER_NAME,32,23,147,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REGISTER_KEY,32,44,147,13,ES_AUTOHSCROLL
+    LTEXT           "Name :",IDC_STATIC,6,26,24,9
+    LTEXT           "Key :",IDC_STATIC,7,46,21,11
+END
+
+IDD_LICENCE DIALOG DISCARDABLE  0, 0, 186, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Licence"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,73,162,50,14
+    CTEXT           "The 30 day evaluation period exceeded.",IDC_STATIC,17,
+                    55,162,18
+    LTEXT           "This is a shareware. To register consult readme.txt",
+                    IDC_STATIC,13,85,160,18
+    DEFPUSHBUTTON   "Register",IDREGISTER,71,121,55,14
+    LTEXT           "You are not registered.",IDC_STATIC,59,25,73,10,
+                    SS_CENTERIMAGE | WS_BORDER
+END
+
+IDD_EDIT_COLORMAP DIALOG DISCARDABLE  0, 0, 176, 77
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Color "
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,56,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,117,56,50,14
+    CONTROL         "",IDC_COLOR_MAP,"Button",BS_OWNERDRAW | WS_TABSTOP,125,
+                    20,27,14
+    LTEXT           "Position:",IDC_STATIC,15,24,28,8
+    EDITTEXT        IDC_EDIT_POSITION,45,22,27,12,ES_AUTOHSCROLL
+    LTEXT           "Color:",IDC_STATIC,101,23,19,8
+    GROUPBOX        "Edit",IDC_STATIC,7,1,160,50
+END
+
+IDD_PREFERENCE DIALOGEX 0, 0, 248, 50
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Configuration"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,69,29,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,125,29,50,14
+    EDITTEXT        IDC_ED_FOLDER,7,7,178,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Browse",ID_GETFOLDER,191,7,50,14
+END
+
+IDD_SCREENSAVER_PROP DIALOG DISCARDABLE  0, 0, 254, 89
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Properties"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,68,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,197,68,50,14
+    CONTROL         "Save Images",IDC_SCREEN_SAVE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,91,49,57,10
+    EDITTEXT        IDC_ED_FOLDER,52,7,133,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Browse",ID_GETFOLDER,197,7,50,14
+    EDITTEXT        IDC_ED_FOLDER2,52,26,133,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Browse",ID_GETFOLDER2,197,26,50,14
+    LTEXT           "Files .tan :",IDC_STATIC,7,7,44,10
+    LTEXT           "Images :",IDC_STATIC,7,27,28,10
+    LTEXT           "http://rayarttan.mailurl.com",IDC_HYPERLINK,78,72,89,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_TEXTURE_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_TEXTURE_PROCEDURAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_LIGHT_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_FORMVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_CAMERA_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_IMAGE_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_FRACTAL_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 216
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+
+    IDD_LICENCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_EDIT_COLORMAP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_PREFERENCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 241
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_SCREENSAVER_PROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_TEXTURE_PROCEDURAL DLGINIT
+BEGIN
+    IDC_PROCEDURE, 0x403, 9, 0
+0x7267, 0x6461, 0x6569, 0x746e, "\000" 
+    IDC_PROCEDURE, 0x403, 8, 0
+0x7267, 0x6e61, 0x7469, 0x0065, 
+    IDC_PROCEDURE, 0x403, 8, 0
+0x7073, 0x746f, 0x6574, 0x0064, 
+    0
+END
+
+IDD_LIGHT_PAGE DLGINIT
+BEGIN
+    IDC_LIGHTTYPE, 0x403, 8, 0
+0x6d61, 0x6962, 0x6e65, 0x0074, 
+    IDC_LIGHTTYPE, 0x403, 11, 0
+0x6f70, 0x6e69, 0x6c74, 0x6769, 0x7468, "\000" 
+    IDC_LIGHTNAME, 0x403, 1, 0
+"\000" 
+    0
+END
+
+IDD_CAMERA_PAGE DLGINIT
+BEGIN
+    IDC_CAMTYPE, 0x403, 12, 0
+0x6570, 0x7372, 0x6570, 0x7463, 0x7669, 0x0065, 
+    IDC_CAMTYPE, 0x403, 13, 0
+0x726f, 0x6874, 0x676f, 0x6172, 0x6870, 0x6369, "\000" 
+    IDC_CAMTYPE, 0x403, 8, 0
+0x7073, 0x6568, 0x6972, 0x0063, 
+    IDC_CAMTYPE, 0x403, 15, 0
+0x7573, 0x6570, 0x6572, 0x6c6c, 0x7069, 0x6f73, 0x6469, "\000" 
+    0
+END
+
+IDD_IMAGE_PAGE DLGINIT
+BEGIN
+    IDC_RENDERTYPE, 0x403, 8, 0
+0x6564, 0x6166, 0x6c75, 0x0074, 
+    IDC_RENDERTYPE, 0x403, 13, 0
+0x6e61, 0x6974, 0x6c61, 0x6169, 0x6973, 0x676e, "\000" 
+    IDC_IMAGEWIDTH, 0x403, 4, 0
+0x3631, 0x0030, 
+    IDC_IMAGEWIDTH, 0x403, 4, 0
+0x3233, 0x0030, 
+    IDC_IMAGEWIDTH, 0x403, 4, 0
+0x3436, 0x0030, 
+    IDC_IMAGEWIDTH, 0x403, 4, 0
+0x3038, 0x0030, 
+    IDC_IMAGEWIDTH, 0x403, 5, 0
+0x3031, 0x3432, "\000" 
+    IDC_IMAGEWIDTH, 0x403, 5, 0
+0x3032, 0x3834, "\000" 
+    IDC_IMAGEHEIGHT, 0x403, 4, 0
+0x3631, 0x0030, 
+    IDC_IMAGEHEIGHT, 0x403, 4, 0
+0x3032, 0x0030, 
+    IDC_IMAGEHEIGHT, 0x403, 4, 0
+0x3834, 0x0030, 
+    IDC_IMAGEHEIGHT, 0x403, 4, 0
+0x3036, 0x0030, 
+    IDC_IMAGEHEIGHT, 0x403, 4, 0
+0x3637, 0x0038, 
+    IDC_IMAGEHEIGHT, 0x403, 5, 0
+0x3031, 0x3432, "\000" 
+    0
+END
+
+IDD_FRACTAL_PAGE DLGINIT
+BEGIN
+    IDC_FRACTALTYPE, 0x403, 11, 0
+0x7571, 0x7461, 0x7265, 0x696e, 0x6e6f, "\000" 
+    IDC_FRACTALTYPE, 0x403, 13, 0
+0x7968, 0x6570, 0x6372, 0x6d6f, 0x6c70, 0x7865, "\000" 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0031, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0032, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0033, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0034, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0035, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0036, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0037, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0038, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0039, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0030, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0031, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0032, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0033, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0034, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0035, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0036, 
+    IDC_FRACTALTEXTURE, 0x403, 1, 0
+"\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_COLORMAP MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Insert",                     ID_COLORMAP_INSERTCOLOR
+        MENUITEM "&Delete",                     ID_COLORMAP_DELETECOLOR
+        MENUITEM "&Modify",                     ID_COLORMAP_MODIFYCOLOR
+    END
+END
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FICHIER_FERMER
+        MENUITEM SEPARATOR
+        MENUITEM "&Save",                       ID_FICHIER_ENREGISTRE
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit",                       ID_APP_EXIT
+        MENUITEM SEPARATOR
+        MENUITEM "Confi&guration",              ID_APP_PREFERENCE
+    END
+    POPUP "&Display"
+    BEGIN
+        MENUITEM "&Tool Bar",                   ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&About RayArtTan...",         ID_APP_ABOUT
+    END
+END
+
+IDR_PRINCIPAL MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FICHIER_FERMER
+        MENUITEM SEPARATOR
+        MENUITEM "&Save",                       ID_FICHIER_ENREGISTRE
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit",                       ID_APP_EXIT
+        MENUITEM SEPARATOR
+        MENUITEM "Confi&guration",              ID_APP_PREFERENCE
+    END
+    POPUP "&Display"
+    BEGIN
+        MENUITEM "&Tools Bar",                  ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Rendering"
+    BEGIN
+        MENUITEM "&Render",                     ID_RENDERING_RENDER
+        MENUITEM "&Stop Render",                ID_STOP_RENDER
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Show/Hide Properties",       ID_WINDOW_SHOWHIDEPROPERTIES
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&About RayArtTan...",         ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About RayArtTan"
+    IDR_MAINFRAME           "RayArtTan"
+    IDR_RAYTRATYPE          "\nRayArt\nRayArt\n\n\nRayArtTan.Document\nRayArt Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "RayArtTan"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "MAJ"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "DEF"
+    ID_INDICATOR_OVR        "ECR"
+    ID_INDICATOR_REC        "ENR"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "New Document\nNew"
+    ID_FILE_OPEN            "Open existing document\nOpen"
+    ID_FILE_CLOSE           "Close Active Document\nClose"
+    ID_FILE_SAVE            "Save Active Document\nSave"
+    ID_FILE_SAVE_AS         "Save As Document\nSave As"
+    ID_FILE_PAGE_SETUP      "Setup Print Page\nSetup Print Page"
+    ID_FILE_PRINT_SETUP     "Setup Printing\nSetup Printing"
+    ID_FILE_PRINT           "Print Active Document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Preview \nPreview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Affiche des informations sur le programme, le numéro de version et le copyright\nA propos de"
+    ID_APP_EXIT             "Ferme l'application ; propose d'enregistrer les documents\nQuitter"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Ouvre ce document"
+    ID_FILE_MRU_FILE2       "Ouvre ce document"
+    ID_FILE_MRU_FILE3       "Ouvre ce document"
+    ID_FILE_MRU_FILE4       "Ouvre ce document"
+    ID_FILE_MRU_FILE5       "Ouvre ce document"
+    ID_FILE_MRU_FILE6       "Ouvre ce document"
+    ID_FILE_MRU_FILE7       "Ouvre ce document"
+    ID_FILE_MRU_FILE8       "Ouvre ce document"
+    ID_FILE_MRU_FILE9       "Ouvre ce document"
+    ID_FILE_MRU_FILE10      "Ouvre ce document"
+    ID_FILE_MRU_FILE11      "Ouvre ce document"
+    ID_FILE_MRU_FILE12      "Ouvre ce document"
+    ID_FILE_MRU_FILE13      "Ouvre ce document"
+    ID_FILE_MRU_FILE14      "Ouvre ce document"
+    ID_FILE_MRU_FILE15      "Ouvre ce document"
+    ID_FILE_MRU_FILE16      "Ouvre ce document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Passe au volet de fenêtre suivant\nVolet suivant"
+    ID_PREV_PANE            "Revient au volet précédent\nVolet précédent"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Ouvre une nouvelle fenêtre pour le document actif\nNouvelle fenêtre"
+    ID_WINDOW_ARRANGE       "Réorganise les icônes en bas de la fenêtre\nRéorganise les icônes"
+    ID_WINDOW_CASCADE       "Réorganise les fenêtres en cascade\nCascade"
+    ID_WINDOW_TILE_HORZ     "Réorganise les fenêtres en une mosaïque\nMosaïque"
+    ID_WINDOW_TILE_VERT     "Réorganise les fenêtres en une mosaïque\nMosaïque"
+    ID_WINDOW_SPLIT         "Réorganise les fenêtres en une mosaïque\nMosaïque"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Efface la sélection\nEffacer"
+    ID_EDIT_CLEAR_ALL       "Efface tout\nEffacer tout"
+    ID_EDIT_COPY            "Copie la sélection et la place dans le Presse-papiers\nCopier"
+    ID_EDIT_CUT             "Supprime la sélection et la place dans le Presse-papiers\nCouper"
+    ID_EDIT_FIND            "Recherche le texte spécifié\nRechercher"
+    ID_EDIT_PASTE           "Insère le contenu du Presse-papiers\nColler"
+    ID_EDIT_REPEAT          "Répète la dernière action\nRépéter"
+    ID_EDIT_REPLACE         "Remplace le texte spécifique par un texte différent\nRemplacer"
+    ID_EDIT_SELECT_ALL      "Sélectionne le document entier\nSélectionner tout"
+    ID_EDIT_UNDO            "Annule la dernière action\nAnnuler"
+    ID_EDIT_REDO            "Rétablit l'action précédemment annulée\nRétablir"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Affiche ou masque la barre d'outils\nBarre d'outils"
+    ID_VIEW_STATUS_BAR      "Affiche ou masque la barre d'état\nBarre d'état"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change la taille de la fenêtre"
+    AFX_IDS_SCMOVE          "Change la position de la fenêtre"
+    AFX_IDS_SCMINIMIZE      "Réduit la fenêtre en icône"
+    AFX_IDS_SCMAXIMIZE      "Agrandit la fenêtre au format de l'écran"
+    AFX_IDS_SCNEXTWINDOW    "Passe à la fenêtre de document suivante"
+    AFX_IDS_SCPREVWINDOW    "Passe à la fenêtre de document précédente"
+    AFX_IDS_SCCLOSE         "Ferme la fenêtre active et propose l'enregistrement des documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restaure la fenêtre à sa taille d'origine"
+    AFX_IDS_SCTASKLIST      "Active la liste des tâches"
+    AFX_IDS_MDICHILD        "Active cette fenêtre"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Ferme le mode d'aperçu avant impression\nFermer l'aperçu"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TEXTUREPAGE_DIFFUSE "Diffuse Procedural"
+    IDS_REGISTER_OK         "Software not registered"
+    IDS_REGISTER_NOK        "Software registered"
+    IDS_ERROR_SAVEFILE      "Error saving file"
+    IDS_COMPUTING_FINISHED  "The End - Computing Time"
+    IDS_NOMBOUTON_RENDER    "Render"
+    IDS_NOMBOUTON_RANDOM    "Random"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_COLORMAP_COLUMN1    "Position"
+    IDS_COLORMAP_COLUMN2    "Red"
+    IDS_COLORMAP_COLUMN3    "Green"
+    IDS_COLORMAP_COLUMN4    "Blue"
+    IDS_ERROR_PARSINGFILE   "Error parsing file line :"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERREUR_MSG_1        "No Render Window"
+    IDS_CURRENT_COMPUTING   "Previous computing ..."
+    IDS_ERROR_FONTFILE      "Font File Error (FileName Error)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FRACTAL_TITLE       "Scene Properties"
+    IDS_TEXTURE_TITLE       "Textures Edit"
+    IDS_MOYENNE             "MeanTime per Thread :"
+    IDS_ERROR_FILEINI       "RayArtTan.ini File Error ! Please reinstall RayArtTan."
+    IDS_RELANCE_APPLI       "Restart RayArtTan!"
+    IDS_REGISTER_THANK_OK   "Thank you for your support. Software registered. For updates, see the RayArtTan website."
+    IDS_REGISTER_ERROR_NOK  "Name/Key Error. Sofware not registered."
+    IDS_RENDU_ANNULE        "Rendering Canceled"
+    IDS_ERROR_EXPRESSION    "%Error Expression"
+    IDS_ERROR_DERIVEE       "%Error Derivative"
+    IDS_ERROR_RENDER        "Error Expression or Derivate Problem!"
+    IDS_ERROR_SCREENSAVER   "Error Nothing to Render : No file or No directory"
+    IDS_ERROR_SCREENSAVER2  "All images are completed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PREFERENCE DIALOGEX 0, 0, 248, 50
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Configuration"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,69,29,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,125,29,50,14
+    EDITTEXT        IDC_ED_FOLDER,7,7,178,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Parcourir",ID_GETFOLDER,191,7,50,14
+END
+
+IDD_FRACTAL_PAGE DIALOG DISCARDABLE  0, 0, 235, 220
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Page de l'objet fractal"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "r :",IDC_STATICPOS2,15,93,10,11
+    EDITTEXT        IDC_FRACTALCSTR,27,90,51,12,ES_AUTOHSCROLL
+    LTEXT           "i :",IDC_STATICPOS3,15,106,10,11
+    EDITTEXT        IDC_FRACTALCSTI,27,103,51,12,ES_AUTOHSCROLL
+    LTEXT           "j :",IDC_STATICPOS4,15,119,10,11
+    EDITTEXT        IDC_FRACTALCSTJ,27,117,51,12,ES_AUTOHSCROLL
+    LTEXT           "k :",IDC_STATICPOS5,15,133,10,11
+    EDITTEXT        IDC_FRACTALCSTK,27,130,51,12,ES_AUTOHSCROLL
+    GROUPBOX        "Constante initiale (@init)",IDC_STATIC,7,79,82,68
+    EDITTEXT        IDC_FRACTALITER,19,169,23,12,ES_AUTOHSCROLL
+    GROUPBOX        "Iter. Max. ",IDC_STATIC,7,158,47,30
+    EDITTEXT        IDC_FRACTALSTEP,72,169,23,12,ES_AUTOHSCROLL
+    GROUPBOX        "Précision",IDC_STATIC,61,158,47,30
+    GROUPBOX        "Expression de la fractale",IDC_STATIC,95,70,133,61
+    EDITTEXT        IDC_FRACTALFORMULA,99,82,95,23,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_HSCROLL
+    EDITTEXT        IDC_FRACTALDERIVATE,99,106,95,23,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_DISABLED | WS_HSCROLL
+    GROUPBOX        "Type",IDC_STATIC,95,132,133,23
+    COMBOBOX        IDC_FRACTALTYPE,126,140,80,136,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Optmis. 3DNow!",IDC_FRACTALOPTIM,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,170,196,58,
+                    10
+    EDITTEXT        IDC_FRACTALANGLE,19,197,23,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    GROUPBOX        "Angle",IDC_STATIC,7,186,47,30,NOT WS_VISIBLE
+    GROUPBOX        "Texture",IDC_STATIC,55,189,109,27
+    COMBOBOX        IDC_FRACTALTEXTURE,63,198,66,74,CBS_DROPDOWNLIST | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Edit",IDC_BFRACTALTEXTURE,133,198,24,12
+    PUSHBUTTON      "Sauv",IDC_FORMULA_RECORD,200,86,21,14
+    GROUPBOX        "Position",IDC_POSITION2,7,7,221,28
+    LTEXT           "X:",IDC_STATIC,13,19,10,11
+    EDITTEXT        IDC_FRACPOSX,25,18,51,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,88,19,10,11
+    EDITTEXT        IDC_FRACPOSY,100,17,51,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,157,19,10,11
+    EDITTEXT        IDC_FRACPOSZ,170,18,51,12,ES_AUTOHSCROLL
+    GROUPBOX        "Rotation",IDC_ROTATION,7,40,221,28
+    LTEXT           "X:",IDC_STATIC,13,51,10,11
+    EDITTEXT        IDC_FRACROTX,25,50,51,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,88,51,10,11
+    EDITTEXT        IDC_FRACROTY,100,49,51,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,157,51,10,11
+    EDITTEXT        IDC_FRACROTZ,170,50,51,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FRACTALLIMIT,185,169,23,12,ES_AUTOHSCROLL
+    GROUPBOX        "Taille Limite",IDC_STATIC,173,158,47,30
+    CONTROL         "Edit",IDC_FORMULA_DERIVE_EDIT,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE,200,112,21,14
+    EDITTEXT        IDC_FRACTALBAILOUT,127,169,23,12,ES_AUTOHSCROLL
+    GROUPBOX        "Echappement",IDC_STATIC,115,158,54,30
+END
+
+IDD_CAMERA_PAGE DIALOG DISCARDABLE  0, 0, 235, 167
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Page caméra"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Pointeur",IDC_LOOKAT,7,38,221,27
+    GROUPBOX        "Position",IDC_POSITION2,7,7,221,28
+    GROUPBOX        "Type",IDC_TYPE,7,133,84,27
+    LTEXT           "X:",IDC_STATIC,13,20,10,11
+    EDITTEXT        IDC_CAMPOSX,25,19,51,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,85,20,10,11
+    EDITTEXT        IDC_CAMPOSY,97,19,51,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,158,20,10,11
+    EDITTEXT        IDC_CAMPOSZ,170,19,51,12,ES_AUTOHSCROLL
+    LTEXT           "X:",IDC_STATIC,13,50,10,11
+    EDITTEXT        IDC_CAMLOOKX,25,49,51,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,85,50,10,11
+    EDITTEXT        IDC_CAMLOOKY,97,49,51,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,158,50,10,11
+    EDITTEXT        IDC_CAMLOOKZ,170,49,51,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_CAMTYPE,13,142,74,75,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Taille écran",IDC_SCREEN,16,104,206,28
+    LTEXT           "Largeur :",IDC_STATIC,22,116,29,11
+    EDITTEXT        IDC_SCREENWIDTH,54,116,51,12,ES_AUTOHSCROLL
+    LTEXT           "Hauteur :",IDC_STATIC,119,116,33,11
+    EDITTEXT        IDC_SCREENHEIGHT,154,114,51,12,ES_AUTOHSCROLL
+    GROUPBOX        "Focale",IDC_FOCALE,133,134,84,26
+    EDITTEXT        IDC_FOCALEVALUE,149,145,51,12,ES_AUTOHSCROLL
+    GROUPBOX        "Haut",IDC_TOP,7,68,221,27
+    LTEXT           "X:",IDC_STATIC,13,80,10,11
+    EDITTEXT        IDC_CAMTOPX,25,79,51,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,85,80,10,11
+    EDITTEXT        IDC_CAMTOPY,97,79,51,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,158,80,10,11
+    EDITTEXT        IDC_CAMTOPZ,170,79,51,12,ES_AUTOHSCROLL
+END
+
+IDD_EDIT_COLORMAP DIALOG DISCARDABLE  0, 0, 176, 77
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edition Couleur"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,56,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,117,56,50,14
+    CONTROL         "",IDC_COLOR_MAP,"Button",BS_OWNERDRAW | WS_TABSTOP,125,
+                    20,27,14
+    LTEXT           "Position:",IDC_STATIC,15,24,28,8
+    EDITTEXT        IDC_EDIT_POSITION,45,22,27,12,ES_AUTOHSCROLL
+    LTEXT           "Couleur:",IDC_STATIC,96,23,27,8
+    GROUPBOX        "Edition",IDC_STATIC,7,1,160,50
+END
+
+IDD_LIGHT_PAGE DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Page Lumières"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "X:",IDC_STATICPOS,13,44,10,11
+    EDITTEXT        IDC_LIGHTPOSX,25,42,51,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,85,44,10,11
+    EDITTEXT        IDC_LIGHTPOSY,97,42,51,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,158,44,10,11
+    EDITTEXT        IDC_LIGHTPOSZ,170,42,51,12,ES_AUTOHSCROLL
+    LTEXT           "R:",IDC_STATIC,13,84,10,11
+    EDITTEXT        IDC_LIGHTCOLORR,25,82,37,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "G:",IDC_STATIC,70,84,10,11
+    EDITTEXT        IDC_LIGHTCOLORG,82,81,37,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "B:",IDC_STATIC,129,84,10,11
+    EDITTEXT        IDC_LIGHTCOLORB,141,82,36,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    COMBOBOX        IDC_LIGHTTYPE,13,129,74,73,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Couleur",IDC_LOOKAT,7,71,221,33
+    GROUPBOX        "Position",IDC_POSITION2,7,30,221,33
+    GROUPBOX        "Type",IDC_TYPE,7,116,84,33
+    COMBOBOX        IDC_LIGHTNAME,97,14,56,135,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Liste des lumières :",IDC_STATIC,31,16,66,11
+    CONTROL         "",IDC_LIGHTCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,190,
+                    81,27,14
+    PUSHBUTTON      "Suppr",IDC_LIGHTDELETE,169,14,31,13
+END
+
+IDD_IMAGE_PAGE DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Page Image"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Type Rendu",IDC_TYPE,66,43,84,33
+    COMBOBOX        IDC_RENDERTYPE,72,55,74,75,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Taille image",IDC_SCREEN,7,7,206,28
+    LTEXT           "Largeur :",-1,13,18,29,11
+    LTEXT           "Hauteur :",-1,110,18,33,11
+    COMBOBOX        IDC_IMAGEWIDTH,45,17,50,75,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_IMAGEHEIGHT,147,16,50,75,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_TEXTURE_GENERAL DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Général"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Couleur Diffusion",IDC_COLORDIFFUSE,7,22,111,27
+    CONTROL         "",IDC_BCOLORDIFFUSE,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    15,33,27,14
+    GROUPBOX        "Couleur Spéculaire",IDC_COLORDIFFUSE2,7,79,112,27
+    CONTROL         "",IDC_BCOLORSPEC,"Button",BS_OWNERDRAW | WS_TABSTOP,15,
+                    88,27,14
+    COMBOBOX        IDC_MATIERENAME,77,5,62,133,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Couleur Ambiante",IDC_COLORAMBIENT,7,50,111,28
+    CONTROL         "",IDC_BCOLORAMB,"Button",BS_OWNERDRAW | WS_TABSTOP,15,
+                    61,27,14
+    GROUPBOX        "Couleur Transparente",IDC_COLORDIFFUSE3,7,107,113,29,
+                    NOT WS_VISIBLE
+    CONTROL         "",IDC_BCOLORTRANS,"Button",BS_OWNERDRAW | NOT 
+                    WS_VISIBLE | WS_TABSTOP,15,119,27,14
+    CONTROL         "Texture",IDC_TEXTDIFFUSE,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,68,34,35,13
+    CONTROL         "Texture",IDC_TEXTAMBIENT,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,68,60,35,13
+    CONTROL         "Texture",IDC_TEXTSPECULAR,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,68,88,35,13
+    CONTROL         "Texture",IDC_TEXTTRANSPARENT,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | NOT WS_VISIBLE | WS_TABSTOP,68,118,35,13
+    EDITTEXT        IDC_PHONGSIZE,136,33,48,9,ES_AUTOHSCROLL
+    GROUPBOX        "Exposant Phong",IDC_STATIC,125,23,68,26
+    PUSHBUTTON      "Suppr",IDC_TEXTURE_SUPPR,147,5,23,13
+END
+
+IDD_TEXTURE_PROCEDURAL DIALOG DISCARDABLE  0, 0, 235, 156
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Texture Procedural Page"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_PROCEDURE,77,5,62,133,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Tableau des couleurs",IDC_STATIC,35,25,155,67
+    CONTROL         "List1",IDC_COLORMAP,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_OWNERDRAWFIXED | 
+                    WS_DISABLED | WS_BORDER | WS_TABSTOP,41,37,142,50
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 170, 174
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "A propos de RayArtTan"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "RayArtTan",IDC_STATIC,29,21,40,8,SS_NOPREFIX
+    LTEXT           "Version 1.0",IDC_STATIC,95,21,46,8
+    DEFPUSHBUTTON   "OK",IDOK,7,153,50,14,WS_GROUP
+    LTEXT           "______________________________________",IDC_STATIC,19,
+                    90,138,9
+    LTEXT           "Nombre de processeurs :",IDC_STATIC,26,105,81,11
+    LTEXT           "",IDC_NBPROCESSORS,116,107,20,9
+    LTEXT           "Copyright 2002",IDC_STATIC,54,33,48,8
+    CTEXT           "Guimaël CADOU Beg ven Gleu 29910 TREGUNC - FRANCE http://RayArtTan.mailurl.com Email:RayArtTan@mailurl.com ",
+                    IDC_STATIC,24,52,121,33
+    LTEXT           "______________________________________",IDC_STATIC,19,
+                    118,138,9
+    LTEXT           "",IDC_ENREGISTRE,21,138,129,8,SS_NOPREFIX
+    CONTROL         149,IDC_STATIC,"Static",SS_BITMAP,70,7,21,20
+    PUSHBUTTON      "Enregistrement",IDREGISTER,113,153,50,14
+END
+
+IDD_REGISTER DIALOG DISCARDABLE  0, 0, 186, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enregistrement"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,6,71,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,71,50,14
+    EDITTEXT        IDC_REGISTER_NAME,32,23,147,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REGISTER_KEY,32,44,147,13,ES_AUTOHSCROLL
+    LTEXT           "Nom :",IDC_STATIC,6,26,24,9
+    LTEXT           "Clé :",IDC_STATIC,7,46,21,11
+END
+
+IDD_LICENCE DIALOG DISCARDABLE  0, 0, 186, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rappel Licence"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,73,162,50,14
+    CTEXT           "Vous avez atteint la limite de la période d'essai de 30 jours ",
+                    IDC_STATIC,17,55,162,18
+    LTEXT           "Ce logiciel est distribué sous une licence shareware. Pour vous enregistrer, consulter le fichier lisezmoi.txt.",
+                    IDC_STATIC,7,85,172,18
+    DEFPUSHBUTTON   "Enregistrement",IDREGISTER,71,121,55,14
+    LTEXT           "Vous êtes un utilisateur non enregistré.",IDC_STATIC,30,
+                    24,126,10,SS_CENTERIMAGE | WS_BORDER
+END
+
+IDD_SCREENSAVER_PROP DIALOG DISCARDABLE  0, 0, 254, 105
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Propriétés"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,81,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,197,79,50,14
+    EDITTEXT        IDC_ED_FOLDER,52,7,133,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Parcourir",ID_GETFOLDER,197,7,50,14
+    CONTROL         "Sauvegarde Rendu",IDC_SCREEN_SAVE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,79,55,78,10
+    EDITTEXT        IDC_ED_FOLDER2,52,26,133,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Parcourir",ID_GETFOLDER2,197,26,50,14
+    LTEXT           "Fichiers .tan :",IDC_STATIC,7,7,44,10
+    LTEXT           "Images :",IDC_STATIC,7,27,28,10
+    LTEXT           "http://rayarttan.mailurl.com",IDC_HYPERLINK,80,83,89,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_LOGO                BITMAP  DISCARDABLE     "res\\logo_final.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PREFERENCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 241
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_FRACTAL_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 216
+    END
+
+    IDD_CAMERA_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_EDIT_COLORMAP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_LIGHT_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_IMAGE_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_TEXTURE_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_TEXTURE_PROCEDURAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+
+    IDD_LICENCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_SCREENSAVER_PROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FRACTAL_PAGE DLGINIT
+BEGIN
+    IDC_FRACTALTYPE, 0x403, 11, 0
+0x7571, 0x7461, 0x7265, 0x696e, 0x6e6f, "\000" 
+    IDC_FRACTALTYPE, 0x403, 13, 0
+0x7968, 0x6570, 0x6372, 0x6d6f, 0x6c70, 0x7865, "\000" 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0031, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0032, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0033, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0034, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0035, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0036, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0037, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0038, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3061, 0x0039, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0030, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0031, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0032, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0033, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0034, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0035, 
+    IDC_FRACTALTYPE, 0x403, 10, 0
+0x6c61, 0x6567, 0x7262, 0x3161, 0x0036, 
+    IDC_FRACTALTEXTURE, 0x403, 1, 0
+"\000" 
+    0
+END
+
+IDD_CAMERA_PAGE DLGINIT
+BEGIN
+    IDC_CAMTYPE, 0x403, 12, 0
+0x6570, 0x7372, 0x6570, 0x7463, 0x7669, 0x0065, 
+    IDC_CAMTYPE, 0x403, 13, 0
+0x726f, 0x6874, 0x676f, 0x6172, 0x6870, 0x6369, "\000" 
+    IDC_CAMTYPE, 0x403, 8, 0
+0x7073, 0x6568, 0x6972, 0x0063, 
+    IDC_CAMTYPE, 0x403, 15, 0
+0x7573, 0x6570, 0x6572, 0x6c6c, 0x7069, 0x6f73, 0x6469, "\000" 
+    0
+END
+
+IDD_LIGHT_PAGE DLGINIT
+BEGIN
+    IDC_LIGHTTYPE, 0x403, 8, 0
+0x6d61, 0x6962, 0x6e65, 0x0074, 
+    IDC_LIGHTTYPE, 0x403, 11, 0
+0x6f70, 0x6e69, 0x6c74, 0x6769, 0x7468, "\000" 
+    IDC_LIGHTNAME, 0x403, 1, 0
+"\000" 
+    0
+END
+
+IDD_IMAGE_PAGE DLGINIT
+BEGIN
+    IDC_RENDERTYPE, 0x403, 8, 0
+0x6564, 0x6166, 0x6c75, 0x0074, 
+    IDC_RENDERTYPE, 0x403, 13, 0
+0x6e61, 0x6974, 0x6c61, 0x6169, 0x6973, 0x676e, "\000" 
+    IDC_IMAGEWIDTH, 0x403, 4, 0
+0x3631, 0x0030, 
+    IDC_IMAGEWIDTH, 0x403, 4, 0
+0x3233, 0x0030, 
+    IDC_IMAGEWIDTH, 0x403, 4, 0
+0x3436, 0x0030, 
+    IDC_IMAGEWIDTH, 0x403, 4, 0
+0x3038, 0x0030, 
+    IDC_IMAGEWIDTH, 0x403, 5, 0
+0x3031, 0x3432, "\000" 
+    IDC_IMAGEWIDTH, 0x403, 5, 0
+0x3032, 0x3834, "\000" 
+    IDC_IMAGEWIDTH, 0x403, 5, 0
+0x3034, 0x3639, "\000" 
+    IDC_IMAGEHEIGHT, 0x403, 4, 0
+0x3631, 0x0030, 
+    IDC_IMAGEHEIGHT, 0x403, 4, 0
+0x3032, 0x0030, 
+    IDC_IMAGEHEIGHT, 0x403, 4, 0
+0x3834, 0x0030, 
+    IDC_IMAGEHEIGHT, 0x403, 4, 0
+0x3036, 0x0030, 
+    IDC_IMAGEHEIGHT, 0x403, 4, 0
+0x3637, 0x0038, 
+    IDC_IMAGEHEIGHT, 0x403, 5, 0
+0x3031, 0x3432, "\000" 
+    IDC_IMAGEHEIGHT, 0x403, 5, 0
+0x3032, 0x3834, "\000" 
+    IDC_IMAGEHEIGHT, 0x403, 5, 0
+0x3034, 0x3639, "\000" 
+    0
+END
+
+IDD_TEXTURE_PROCEDURAL DLGINIT
+BEGIN
+    IDC_PROCEDURE, 0x403, 9, 0
+0x7267, 0x6461, 0x6569, 0x746e, "\000" 
+    IDC_PROCEDURE, 0x403, 8, 0
+0x7267, 0x6e61, 0x7469, 0x0065, 
+    IDC_PROCEDURE, 0x403, 8, 0
+0x7073, 0x746f, 0x6574, 0x0064, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Fichier"
+    BEGIN
+        MENUITEM "&Nouveau\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "&Ouvrir...\tCtrl+O",          ID_FILE_OPEN
+        MENUITEM "&Fermer",                     ID_FICHIER_FERMER
+        MENUITEM SEPARATOR
+        MENUITEM "&Enregistrer",                ID_FICHIER_ENREGISTRE
+        MENUITEM SEPARATOR
+        MENUITEM "&Quitter",                    ID_APP_EXIT
+        MENUITEM SEPARATOR
+        MENUITEM "&Préférences",                ID_APP_PREFERENCE
+    END
+    POPUP "&Affichage"
+    BEGIN
+        MENUITEM "&Barre d'outils",             ID_VIEW_TOOLBAR
+        MENUITEM "Barre d'é&tat",               ID_VIEW_STATUS_BAR
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&A propos de RayArtTan...",   ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_COLORMAP MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Insert",                     ID_COLORMAP_INSERTCOLOR
+        MENUITEM "&Efface",                     ID_COLORMAP_DELETECOLOR
+        MENUITEM "&Modifie",                    ID_COLORMAP_MODIFYCOLOR
+    END
+END
+
+IDR_PRINCIPAL MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Fichier"
+    BEGIN
+        MENUITEM "&Nouveau\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "&Ouvrir...\tCtrl+O",          ID_FILE_OPEN
+        MENUITEM "&Fermer",                     ID_FICHIER_FERMER
+        MENUITEM SEPARATOR
+        MENUITEM "&Enregistrer",                ID_FICHIER_ENREGISTRE
+        MENUITEM SEPARATOR
+        MENUITEM "&Quitter",                    ID_APP_EXIT
+        MENUITEM SEPARATOR
+        MENUITEM "&Préférences",                ID_APP_PREFERENCE
+    END
+    POPUP "&Affichage"
+    BEGIN
+        MENUITEM "&Barre d'outils",             ID_VIEW_TOOLBAR
+        MENUITEM "Barre d'é&tat",               ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Rendu"
+    BEGIN
+        MENUITEM "&Démarrage Rendu",            ID_RENDERING_RENDER
+        MENUITEM "&Arrêt Rendu",                ID_STOP_RENDER
+        MENUITEM "Rendu Aléatoire",             ID_RENDERING_ALEA
+    END
+    POPUP "Fenêtre"
+    BEGIN
+        MENUITEM "&Afficher/Cacher Propriétés", ID_WINDOW_SHOWHIDEPROPERTIES
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&A propos de RayArtTan...",   ID_APP_ABOUT
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 12, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\RayTracingStd.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.fra\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.fra\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\RayTracingStd.ico"
+IDR_RAYTRATYPE          ICON    DISCARDABLE     "res\\RayTracingStdDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FICHIER_ENREGISTRE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "G",            ID_RENDERING_RENDER,    VIRTKEY, ALT, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040004b0"
+        BEGIN
+            VALUE "Comments", "Pemet le rendu en lancé de rayon de fractales 3D\0"
+            VALUE "CompanyName", "Guimaël Cadou\0"
+            VALUE "FileDescription", "Logiciel de lancé de rayon\0"
+            VALUE "FileVersion", "1, 1, 0, 0\0"
+            VALUE "InternalName", "RayArtTan\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "RayArtTan.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "RayArtTan bêta v1.1\0"
+            VALUE "ProductVersion", "1, 1, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x400, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_NULLCURSOR          CURSOR  DISCARDABLE     "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&A propos de RayArtTan..."
+    IDR_MAINFRAME           "RayArtTan"
+    IDR_RAYTRATYPE          "\nRayArt\nRayArt\nFiles (*.tan)\n.tan\nRayArtTan.Document\nRayArt Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "RayArtTan"
+    AFX_IDS_IDLEMESSAGE     "Prêt"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "MAJ"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "DEF"
+    ID_INDICATOR_OVR        "ECR"
+    ID_INDICATOR_REC        "ENR"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Crée un nouveau document\nNouveau"
+    ID_FILE_OPEN            "Ouvre un document existant\nOuvrir"
+    ID_FILE_CLOSE           "Ferme le document actif\nFermer"
+    ID_FILE_SAVE            "Enregistre le document actif\nEnregistrer"
+    ID_FILE_SAVE_AS         "Enregistre le document actif sous un nouveau nom\nEnregistrer sous"
+    ID_FILE_PAGE_SETUP      "Change les options d'impression\nMise en page"
+    ID_FILE_PRINT_SETUP     "Change les options d'imprimante et d'impression\nConfiguration de l'impression"
+    ID_FILE_PRINT           "Imprime le document actif\nImprimer"
+    ID_FILE_PRINT_PREVIEW   "Affiche des pages entières\nAperçu avant impression"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Affiche des informations sur le programme, le numéro de version et le copyright\nA propos de"
+    ID_APP_EXIT             "Ferme l'application ; propose d'enregistrer les documents\nQuitter"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Ouvre ce document"
+    ID_FILE_MRU_FILE2       "Ouvre ce document"
+    ID_FILE_MRU_FILE3       "Ouvre ce document"
+    ID_FILE_MRU_FILE4       "Ouvre ce document"
+    ID_FILE_MRU_FILE5       "Ouvre ce document"
+    ID_FILE_MRU_FILE6       "Ouvre ce document"
+    ID_FILE_MRU_FILE7       "Ouvre ce document"
+    ID_FILE_MRU_FILE8       "Ouvre ce document"
+    ID_FILE_MRU_FILE9       "Ouvre ce document"
+    ID_FILE_MRU_FILE10      "Ouvre ce document"
+    ID_FILE_MRU_FILE11      "Ouvre ce document"
+    ID_FILE_MRU_FILE12      "Ouvre ce document"
+    ID_FILE_MRU_FILE13      "Ouvre ce document"
+    ID_FILE_MRU_FILE14      "Ouvre ce document"
+    ID_FILE_MRU_FILE15      "Ouvre ce document"
+    ID_FILE_MRU_FILE16      "Ouvre ce document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Passe au volet de fenêtre suivant\nVolet suivant"
+    ID_PREV_PANE            "Revient au volet précédent\nVolet précédent"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Ouvre une nouvelle fenêtre pour le document actif\nNouvelle fenêtre"
+    ID_WINDOW_ARRANGE       "Réorganise les icônes en bas de la fenêtre\nRéorganise les icônes"
+    ID_WINDOW_CASCADE       "Réorganise les fenêtres en cascade\nCascade"
+    ID_WINDOW_TILE_HORZ     "Réorganise les fenêtres en une mosaïque\nMosaïque"
+    ID_WINDOW_TILE_VERT     "Réorganise les fenêtres en une mosaïque\nMosaïque"
+    ID_WINDOW_SPLIT         "Réorganise les fenêtres en une mosaïque\nMosaïque"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Efface la sélection\nEffacer"
+    ID_EDIT_CLEAR_ALL       "Efface tout\nEffacer tout"
+    ID_EDIT_COPY            "Copie la sélection et la place dans le Presse-papiers\nCopier"
+    ID_EDIT_CUT             "Supprime la sélection et la place dans le Presse-papiers\nCouper"
+    ID_EDIT_FIND            "Recherche le texte spécifié\nRechercher"
+    ID_EDIT_PASTE           "Insère le contenu du Presse-papiers\nColler"
+    ID_EDIT_REPEAT          "Répète la dernière action\nRépéter"
+    ID_EDIT_REPLACE         "Remplace le texte spécifique par un texte différent\nRemplacer"
+    ID_EDIT_SELECT_ALL      "Sélectionne le document entier\nSélectionner tout"
+    ID_EDIT_UNDO            "Annule la dernière action\nAnnuler"
+    ID_EDIT_REDO            "Rétablit l'action précédemment annulée\nRétablir"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Affiche ou masque la barre d'outils\nBarre d'outils"
+    ID_VIEW_STATUS_BAR      "Affiche ou masque la barre d'état\nBarre d'état"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change la taille de la fenêtre"
+    AFX_IDS_SCMOVE          "Change la position de la fenêtre"
+    AFX_IDS_SCMINIMIZE      "Réduit la fenêtre en icône"
+    AFX_IDS_SCMAXIMIZE      "Agrandit la fenêtre au format de l'écran"
+    AFX_IDS_SCNEXTWINDOW    "Passe à la fenêtre de document suivante"
+    AFX_IDS_SCPREVWINDOW    "Passe à la fenêtre de document précédente"
+    AFX_IDS_SCCLOSE         "Ferme la fenêtre active et propose l'enregistrement des documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restaure la fenêtre à sa taille d'origine"
+    AFX_IDS_SCTASKLIST      "Active la liste des tâches "
+    AFX_IDS_MDICHILD        "Active cette fenêtre"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Ferme le mode d'aperçu avant impression\nFermer l'aperçu"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FRACTAL_TITLE       "Description scène"
+    IDS_TEXTURE_TITLE       "Edition Textures"
+    IDS_MOYENNE             "Moyenne par Thread : "
+    IDS_ERROR_FILEINI       "Le fichier RayArtTan.ini est erronée, veuillez réinstaller RayArTan."
+    IDS_RELANCE_APPLI       "Veuillez relancer l'application!"
+    IDS_REGISTER_THANK_OK   "Merci de votre soutien. Ce logiciel est maintenant enregistré. Consulter régulièrement le site de RayArtTan pour les mises à jour."
+    IDS_REGISTER_ERROR_NOK  "Le nom et/ou la clé sont erronées! Logiciel non enregistré."
+    IDS_RENDU_ANNULE        "Rendu Annulé"
+    IDS_ERROR_EXPRESSION    "%Erreur Expression"
+    IDS_ERROR_DERIVEE       "%Erreur Dérivée"
+    IDS_ERROR_RENDER        "Erreur Problème Expression ou Dérivée!"
+    IDS_ERROR_SCREENSAVER   "Pas de rendu possible : aucun fichier ou pas de répertoire"
+    IDS_ERROR_SCREENSAVER2  "Tous les fichiers scènes ont été calculés."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TEXTUREPAGE_DIFFUSE "Texture Diffusion"
+    IDS_TEXTUREPAGE_AMBIENT "Texture Ambiante"
+    IDS_TEXTUREPAGE_SPECULAR "Texture Spéculaire"
+    IDS_TEXTUREPAGE_TRANSPARENT "Texture Transparente"
+    IDS_REGISTER_OK         "Logiciel Enregistré"
+    IDS_REGISTER_NOK        "Logiciel non enregistré"
+    IDS_ERROR_SAVEFILE      "Problème de sauvegarde du fichier"
+    IDS_COMPUTING_FINISHED  "Image Terminée - Temps de calcul"
+    IDS_ERROR_NOFRACTAL     "Erreur pas de fractale définie"
+    IDS_NOMBOUTON_RENDER    "Rendu"
+    IDS_NOMBOUTON_RANDOM    "Hasard"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_COLORMAP_COLUMN1    "Position"
+    IDS_COLORMAP_COLUMN2    "Rouge"
+    IDS_COLORMAP_COLUMN3    "Vert"
+    IDS_COLORMAP_COLUMN4    "Bleu"
+    IDS_ERROR_PARSINGFILE   "Erreur dans le fichier à la ligne :"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERREUR_MSG_1        "Pas de fenêtre de rendu"
+    IDS_CURRENT_COMPUTING   "Calcul en cours...."
+    IDS_ERROR_FONTFILE      "Fichier de police non trouvé (pas une police TrueType, fichier manquant,...)"
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE 12, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\RayTracingStd.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.fra\afxres.rc"          // Standard components
+#include "l.fra\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

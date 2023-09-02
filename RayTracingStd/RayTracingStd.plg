@@ -1,0 +1,1556 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RayTracingStd - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\GIMLIL~1\LOCALS~1\Temp\RSPF8.tmp" with contents
+[
+/nologo /G6 /MT /W3 /Gi /Ot /Oa /Og /Oi /Op /Oy /Ob2 /Gy /I ".\\" /I ".\Specifique" /I "..\reused_objects\utilitaires\traceur\\" /I "..\Parser generator\include\\" /I "../wx2/include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_CONSOLE" /D "TRACER_DISABLED" /D "__WXMSW__" /D "_NSCREENSAVER" /D "NOMAIN" /Fp"c:\Projets\IntermediateFiles\Release/RayTracingStd.pch" /YX"stdafx.h" /Fo"c:\Projets\IntermediateFiles\Release/" /Fd"c:\Projets\IntermediateFiles\Release/" /FD /I /GA /GF /Gs /Zm200 /c 
+"C:\RayArtTan\Sources\RayTracingStd\BaseImage.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\BaseIntersection.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\BaseListIntersection.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\BaseRenderPixel.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\ChildFrm.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\ConfigDlg.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\LicenceDlg.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\outviewView.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\RayTracingStd.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\RayTracingStdDoc.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\RayTracingStdView.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\RegisterDlg.cpp"
+"C:\RayArtTan\Sources\reused_objects\utilitaires\Traceur\traceservice.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\BaseModelLight.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\ModelLightMetallic.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\ModelLightMetallicFresnel.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\BaseLight.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\LightAmbient.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\LightPoint.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\LightSpot.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\BaseGeometry.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\Box.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\Cone.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\Cylinder.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\Plan.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\Sphere.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\Text.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\Torus.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\BaseRender.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\RenderAdaptativeSampling.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\RenderInterface.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\RenderStdRayTracing.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\RunRender.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\BaseMatiere.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\BaseProcedural.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\ProcGradientMatiere.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\ProcSimpleNoiseMatiere.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\TextureElement.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\Ray.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\RayEye.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\RayLight.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\BaseListPolyNomial.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\ListSturmSequence.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\PolyNomial.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\PolyNomialCubic.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\PolyNomialQuadratic.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\PolyNomialQuartic.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\BaseHyperAlgebra.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\ComputeDerivate.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\DerivateFileParser.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\DerivateFileParser.l.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\FormulaDerivate.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\FormulaDerivate.l.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\MatrixTransform.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\Noise3D.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\Noise3DGranite.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\Color.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\Dispersion.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\FormulaParser.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\FormulaParser.l.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\BaseCamera.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\CamParalPlane.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\CamPersPlane.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\CamSphere.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\CamSuperEllipsoid.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\FileParser.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\FileParser.l.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\renderingwnd.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\saverwnd.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\ScreenSaverDlg.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\FontFile.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\FormatGlyph.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\TextFont.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\WRITEAVI.CPP"
+]
+Creating command line "cl.exe @C:\DOCUME~1\GIMLIL~1\LOCALS~1\Temp\RSPF8.tmp" 
+Creating temporary file "C:\DOCUME~1\GIMLIL~1\LOCALS~1\Temp\RSPF9.tmp" with contents
+[
+/nologo /G6 /MT /W3 /Gi /O1 /Op /Oy /Ob2 /Gy /I ".\\" /I ".\Specifique" /I "..\reused_objects\utilitaires\traceur\\" /I "..\Parser generator\include\\" /I "../wx2/include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_CONSOLE" /D "TRACER_DISABLED" /D "__WXMSW__" /D "_NSCREENSAVER" /D "NOMAIN" /Fp"c:\Projets\IntermediateFiles\Release/RayTracingStd.pch" /YX"stdafx.h" /Fo"c:\Projets\IntermediateFiles\Release/" /Fd"c:\Projets\IntermediateFiles\Release/" /FD /I /GA /GF /Gs /Zm200 /c 
+"C:\RayArtTan\Sources\RayTracingStd\HyperLink.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\Accueil.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\ColorIhm.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\CoordIhm.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\EditColorMapDlg.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\ihminterface.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\listctrlex.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\MainFrm.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\QuaterIhm.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\RenderingDoc.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\RenderingFrame.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\RenderingView.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\CameraPage.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\FractalPage.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\FractalSheet.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\ImagePage.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\LightPage.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\TextureGeneralPage.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\TextureProceduralPage.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\TextureSheet.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\oxbitmapbutton.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\oxcolorpickerbutton.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\oxcolorpickerctrl.cpp"
+"C:\RayArtTan\Sources\RayTracingStd\oxpopupbarctrl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\GIMLIL~1\LOCALS~1\Temp\RSPF9.tmp" 
+Creating temporary file "C:\DOCUME~1\GIMLIL~1\LOCALS~1\Temp\RSPFA.tmp" with contents
+[
+/nologo /G6 /MT /W3 /Gi /Ot /Oa /Og /Oi /Op /Oy /Ob2 /Gy /I ".\\" /I ".\Specifique" /I "..\reused_objects\utilitaires\traceur\\" /I "..\Parser generator\include\\" /I "../wx2/include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_CONSOLE" /D "TRACER_DISABLED" /D "__WXMSW__" /D "_NSCREENSAVER" /D "NOMAIN" /Fp"c:\Projets\IntermediateFiles\Release/RayTracingStd.pch" /Yc"stdafx.h" /Fo"c:\Projets\IntermediateFiles\Release/" /Fd"c:\Projets\IntermediateFiles\Release/" /FD /I /GA /GF /Gs /Zm200 /c 
+"C:\RayArtTan\Sources\RayTracingStd\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\GIMLIL~1\LOCALS~1\Temp\RSPFA.tmp" 
+Creating temporary file "C:\DOCUME~1\GIMLIL~1\LOCALS~1\Temp\RSPFB.tmp" with contents
+[
+/nologo /G6 /MT /W3 /Gi /Ot /Oa /Og /Oi /Op /Oy /Ob2 /Gy /I ".\\" /I ".\Specifique" /I "..\reused_objects\utilitaires\traceur\\" /I "..\Parser generator\include\\" /I "../wx2/include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_CONSOLE" /D "TRACER_DISABLED" /D "__WXMSW__" /D "_NSCREENSAVER" /D "NOMAIN" /Fo"c:\Projets\IntermediateFiles\Release/" /Fd"c:\Projets\IntermediateFiles\Release/" /FD /I /GA /GF /Gs /Zm200 /c 
+"C:\RayArtTan\Sources\RayTracingStd\TextChar.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\GIMLIL~1\LOCALS~1\Temp\RSPFB.tmp" 
+Creating temporary file "C:\DOCUME~1\GIMLIL~1\LOCALS~1\Temp\RSPFC.tmp" with contents
+[
+nafxcw.lib wsock32.lib ylmt.lib wx.lib png.lib tiff.lib jpeg.lib zlib.lib vfw32.lib /nologo /subsystem:windows /incremental:no /pdb:"c:\Projets\Runtime\Release/RayArtTan.pdb" /machine:I386 /out:"c:\Projets\Runtime\Release/RayArtTan.exe" /libpath:"..\parser generator\lib\msdev\\" /libpath:"../wx2/lib" 
+\Projets\IntermediateFiles\Release\BaseImage.obj
+\Projets\IntermediateFiles\Release\BaseIntersection.obj
+\Projets\IntermediateFiles\Release\BaseListIntersection.obj
+\Projets\IntermediateFiles\Release\BaseRenderPixel.obj
+\Projets\IntermediateFiles\Release\ChildFrm.obj
+\Projets\IntermediateFiles\Release\ConfigDlg.obj
+\Projets\IntermediateFiles\Release\HyperLink.obj
+\Projets\IntermediateFiles\Release\LicenceDlg.obj
+\Projets\IntermediateFiles\Release\outviewView.obj
+\Projets\IntermediateFiles\Release\RayTracingStd.obj
+\Projets\IntermediateFiles\Release\RayTracingStdDoc.obj
+\Projets\IntermediateFiles\Release\RayTracingStdView.obj
+\Projets\IntermediateFiles\Release\RegisterDlg.obj
+\Projets\IntermediateFiles\Release\StdAfx.obj
+\Projets\IntermediateFiles\Release\traceservice.obj
+\Projets\IntermediateFiles\Release\BaseModelLight.obj
+\Projets\IntermediateFiles\Release\ModelLightMetallic.obj
+\Projets\IntermediateFiles\Release\ModelLightMetallicFresnel.obj
+\Projets\IntermediateFiles\Release\BaseLight.obj
+\Projets\IntermediateFiles\Release\LightAmbient.obj
+\Projets\IntermediateFiles\Release\LightPoint.obj
+\Projets\IntermediateFiles\Release\LightSpot.obj
+\Projets\IntermediateFiles\Release\BaseGeometry.obj
+\Projets\IntermediateFiles\Release\Box.obj
+\Projets\IntermediateFiles\Release\Cone.obj
+\Projets\IntermediateFiles\Release\Cylinder.obj
+\Projets\IntermediateFiles\Release\Plan.obj
+\Projets\IntermediateFiles\Release\Sphere.obj
+\Projets\IntermediateFiles\Release\Text.obj
+\Projets\IntermediateFiles\Release\TextChar.obj
+\Projets\IntermediateFiles\Release\Torus.obj
+\Projets\IntermediateFiles\Release\Accueil.obj
+\Projets\IntermediateFiles\Release\ColorIhm.obj
+\Projets\IntermediateFiles\Release\CoordIhm.obj
+\Projets\IntermediateFiles\Release\EditColorMapDlg.obj
+\Projets\IntermediateFiles\Release\ihminterface.obj
+\Projets\IntermediateFiles\Release\listctrlex.obj
+\Projets\IntermediateFiles\Release\MainFrm.obj
+\Projets\IntermediateFiles\Release\QuaterIhm.obj
+\Projets\IntermediateFiles\Release\RenderingDoc.obj
+\Projets\IntermediateFiles\Release\RenderingFrame.obj
+\Projets\IntermediateFiles\Release\RenderingView.obj
+\Projets\IntermediateFiles\Release\BaseRender.obj
+\Projets\IntermediateFiles\Release\RenderAdaptativeSampling.obj
+\Projets\IntermediateFiles\Release\RenderInterface.obj
+\Projets\IntermediateFiles\Release\RenderStdRayTracing.obj
+\Projets\IntermediateFiles\Release\RunRender.obj
+\Projets\IntermediateFiles\Release\BaseMatiere.obj
+\Projets\IntermediateFiles\Release\BaseProcedural.obj
+\Projets\IntermediateFiles\Release\ProcGradientMatiere.obj
+\Projets\IntermediateFiles\Release\ProcSimpleNoiseMatiere.obj
+\Projets\IntermediateFiles\Release\TextureElement.obj
+\Projets\IntermediateFiles\Release\Ray.obj
+\Projets\IntermediateFiles\Release\RayEye.obj
+\Projets\IntermediateFiles\Release\RayLight.obj
+\Projets\IntermediateFiles\Release\BaseListPolyNomial.obj
+\Projets\IntermediateFiles\Release\ListSturmSequence.obj
+\Projets\IntermediateFiles\Release\PolyNomial.obj
+\Projets\IntermediateFiles\Release\PolyNomialCubic.obj
+\Projets\IntermediateFiles\Release\PolyNomialQuadratic.obj
+\Projets\IntermediateFiles\Release\PolyNomialQuartic.obj
+\Projets\IntermediateFiles\Release\BaseHyperAlgebra.obj
+\Projets\IntermediateFiles\Release\ComputeDerivate.obj
+\Projets\IntermediateFiles\Release\DerivateFileParser.obj
+\Projets\IntermediateFiles\Release\DerivateFileParser.l.obj
+\Projets\IntermediateFiles\Release\FormulaDerivate.obj
+\Projets\IntermediateFiles\Release\FormulaDerivate.l.obj
+\Projets\IntermediateFiles\Release\MatrixTransform.obj
+\Projets\IntermediateFiles\Release\Noise3D.obj
+\Projets\IntermediateFiles\Release\Noise3DGranite.obj
+\Projets\IntermediateFiles\Release\Color.obj
+\Projets\IntermediateFiles\Release\Dispersion.obj
+\Projets\IntermediateFiles\Release\FormulaParser.obj
+\Projets\IntermediateFiles\Release\FormulaParser.l.obj
+\Projets\IntermediateFiles\Release\BaseCamera.obj
+\Projets\IntermediateFiles\Release\CamParalPlane.obj
+\Projets\IntermediateFiles\Release\CamPersPlane.obj
+\Projets\IntermediateFiles\Release\CamSphere.obj
+\Projets\IntermediateFiles\Release\CamSuperEllipsoid.obj
+\Projets\IntermediateFiles\Release\CameraPage.obj
+\Projets\IntermediateFiles\Release\FractalPage.obj
+\Projets\IntermediateFiles\Release\FractalSheet.obj
+\Projets\IntermediateFiles\Release\ImagePage.obj
+\Projets\IntermediateFiles\Release\LightPage.obj
+\Projets\IntermediateFiles\Release\TextureGeneralPage.obj
+\Projets\IntermediateFiles\Release\TextureProceduralPage.obj
+\Projets\IntermediateFiles\Release\TextureSheet.obj
+\Projets\IntermediateFiles\Release\oxbitmapbutton.obj
+\Projets\IntermediateFiles\Release\oxcolorpickerbutton.obj
+\Projets\IntermediateFiles\Release\oxcolorpickerctrl.obj
+\Projets\IntermediateFiles\Release\oxpopupbarctrl.obj
+\Projets\IntermediateFiles\Release\FileParser.obj
+\Projets\IntermediateFiles\Release\FileParser.l.obj
+\Projets\IntermediateFiles\Release\renderingwnd.obj
+\Projets\IntermediateFiles\Release\saverwnd.obj
+\Projets\IntermediateFiles\Release\ScreenSaverDlg.obj
+\Projets\IntermediateFiles\Release\FontFile.obj
+\Projets\IntermediateFiles\Release\FormatGlyph.obj
+\Projets\IntermediateFiles\Release\TextFont.obj
+\Projets\IntermediateFiles\Release\WRITEAVI.OBJ
+\Projets\IntermediateFiles\Release\RayTracingStd.res
+]
+Creating command line "link.exe @C:\DOCUME~1\GIMLIL~1\LOCALS~1\Temp\RSPFC.tmp"
+<h3>Output Window</h3>
+Compiling...
+cl : Ligne de commande warning D4029ÿ: l'optimisation n'est pas disponible dans l'‚dition standard du compilateur
+StdAfx.cpp
+Compiling...
+cl : Ligne de commande warning D4029ÿ: l'optimisation n'est pas disponible dans l'‚dition standard du compilateur
+BaseImage.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+BaseIntersection.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+BaseListIntersection.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+BaseRenderPixel.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+ChildFrm.cpp
+ConfigDlg.cpp
+c:\RayArtTan\Sources\RayTracingStd\ClassicFunctions.h(30) : warning C4805: '&'ÿ: m‚lange risqu‚ de type 'bool' et de type 'BOOL' dans l'op‚ration
+LicenceDlg.cpp
+outviewView.cpp
+RayTracingStd.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(215) : error C2373: '_ctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(95)ÿ: voir la d‚claration de '_ctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(217) : error C2373: '_pctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(102)ÿ: voir la d‚claration de '_pctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(218) : error C2373: '_pwctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(103)ÿ: voir la d‚claration de '_pwctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(65) : error C2373: '_ctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(95)ÿ: voir la d‚claration de '_ctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(67) : error C2373: '_pctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(102)ÿ: voir la d‚claration de '_pctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(68) : error C2373: '_pwctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(103)ÿ: voir la d‚claration de '_pwctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_from_int'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : warning C4391: 'int _m_from_int(int)'ÿ: type de retour incorrect pour la fonction intrinsŠque, 'union' attendu
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packsswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '_m_packsswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packssdw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '_m_packssdw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packuswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '_m_packuswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '_m_punpckhbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '_m_punpckhwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhdq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '_m_punpckhdq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '_m_punpcklbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '_m_punpcklwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckldq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '_m_punpckldq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '_m_paddb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '_m_paddw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '_m_paddd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '_m_paddsb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '_m_paddsw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '_m_paddusb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : fatal error C1003: le nombre d'erreurs est sup‚rieur … 100ÿ; arrˆt de la compilation
+RayTracingStdDoc.cpp
+RayTracingStdView.cpp
+RegisterDlg.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\Include\NEW(27) : error C2011: 'std::nothrow_t'ÿ: red‚finition du type 'struct'
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\new.h(94)ÿ: voir la d‚claration de 'std::nothrow_t'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(547) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+traceservice.cpp
+BaseModelLight.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+ModelLightMetallic.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+ModelLightMetallicFresnel.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+BaseLight.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+LightAmbient.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+LightPoint.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+LightSpot.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+BaseGeometry.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+Box.cpp
+Cone.cpp
+Cylinder.cpp
+Plan.cpp
+Sphere.cpp
+Text.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\new.h(94) : error C2011: 'std::nothrow_t'ÿ: red‚finition du type 'struct'
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\NEW(27)ÿ: voir la d‚claration de 'std::nothrow_t'
+Torus.cpp
+BaseRender.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+RenderAdaptativeSampling.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(95) : error C2373: '_ctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(215)ÿ: voir la d‚claration de '_ctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(102) : error C2373: '_pctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(217)ÿ: voir la d‚claration de '_pctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(103) : error C2373: '_pwctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(218)ÿ: voir la d‚claration de '_pwctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_from_int'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : warning C4391: 'int _m_from_int(int)'ÿ: type de retour incorrect pour la fonction intrinsŠque, 'union' attendu
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packsswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '_m_packsswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packssdw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '_m_packssdw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packuswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '_m_packuswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '_m_punpckhbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '_m_punpckhwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhdq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '_m_punpckhdq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '_m_punpcklbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '_m_punpcklwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckldq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '_m_punpckldq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '_m_paddb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '_m_paddw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '_m_paddd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '_m_paddsb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '_m_paddsw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '_m_paddusb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : fatal error C1003: le nombre d'erreurs est sup‚rieur … 100ÿ; arrˆt de la compilation
+RenderInterface.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(95) : error C2373: '_ctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(65)ÿ: voir la d‚claration de '_ctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(102) : error C2373: '_pctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(67)ÿ: voir la d‚claration de '_pctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(103) : error C2373: '_pwctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(68)ÿ: voir la d‚claration de '_pwctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\NEW(27) : error C2011: 'std::nothrow_t'ÿ: red‚finition du type 'struct'
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\new.h(94)ÿ: voir la d‚claration de 'std::nothrow_t'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_from_int'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : warning C4391: 'int _m_from_int(int)'ÿ: type de retour incorrect pour la fonction intrinsŠque, 'union' attendu
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packsswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '_m_packsswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packssdw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '_m_packssdw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packuswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '_m_packuswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '_m_punpckhbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '_m_punpckhwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhdq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '_m_punpckhdq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '_m_punpcklbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '_m_punpcklwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckldq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '_m_punpckldq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '_m_paddb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '_m_paddw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '_m_paddd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '_m_paddsb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '_m_paddsw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '_m_paddusb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : fatal error C1003: le nombre d'erreurs est sup‚rieur … 100ÿ; arrˆt de la compilation
+RenderStdRayTracing.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(95) : error C2373: '_ctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(215)ÿ: voir la d‚claration de '_ctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(102) : error C2373: '_pctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(217)ÿ: voir la d‚claration de '_pctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(103) : error C2373: '_pwctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(218)ÿ: voir la d‚claration de '_pwctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_from_int'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : warning C4391: 'int _m_from_int(int)'ÿ: type de retour incorrect pour la fonction intrinsŠque, 'union' attendu
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packsswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '_m_packsswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packssdw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '_m_packssdw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packuswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '_m_packuswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '_m_punpckhbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '_m_punpckhwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhdq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '_m_punpckhdq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '_m_punpcklbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '_m_punpcklwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckldq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '_m_punpckldq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '_m_paddb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '_m_paddw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '_m_paddd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '_m_paddsb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '_m_paddsw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '_m_paddusb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : fatal error C1003: le nombre d'erreurs est sup‚rieur … 100ÿ; arrˆt de la compilation
+RunRender.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(215) : error C2373: '_ctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(95)ÿ: voir la d‚claration de '_ctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(217) : error C2373: '_pctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(102)ÿ: voir la d‚claration de '_pctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(218) : error C2373: '_pwctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(103)ÿ: voir la d‚claration de '_pwctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(65) : error C2373: '_ctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(95)ÿ: voir la d‚claration de '_ctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(67) : error C2373: '_pctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(102)ÿ: voir la d‚claration de '_pctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(68) : error C2373: '_pwctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(103)ÿ: voir la d‚claration de '_pwctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_from_int'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : warning C4391: 'int _m_from_int(int)'ÿ: type de retour incorrect pour la fonction intrinsŠque, 'union' attendu
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packsswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '_m_packsswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packssdw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '_m_packssdw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packuswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '_m_packuswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '_m_punpckhbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '_m_punpckhwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhdq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '_m_punpckhdq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '_m_punpcklbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '_m_punpcklwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckldq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '_m_punpckldq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '_m_paddb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '_m_paddw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '_m_paddd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '_m_paddsb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '_m_paddsw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '_m_paddusb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : fatal error C1003: le nombre d'erreurs est sup‚rieur … 100ÿ; arrˆt de la compilation
+BaseMatiere.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+C:\RayArtTan\Sources\RayTracingStd\BaseMatiere.cpp(11) : warning C4305: 'argument'ÿ: troncation de 'double' … 'float'
+C:\RayArtTan\Sources\RayTracingStd\BaseMatiere.cpp(26) : warning C4305: 'argument'ÿ: troncation de 'double' … 'float'
+C:\RayArtTan\Sources\RayTracingStd\BaseMatiere.cpp(43) : warning C4305: 'argument'ÿ: troncation de 'double' … 'float'
+BaseProcedural.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+ProcGradientMatiere.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+ProcSimpleNoiseMatiere.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+TextureElement.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+Ray.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+RayEye.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+RayLight.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+BaseListPolyNomial.cpp
+ListSturmSequence.cpp
+PolyNomial.cpp
+PolyNomialCubic.cpp
+PolyNomialQuadratic.cpp
+PolyNomialQuartic.cpp
+BaseHyperAlgebra.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(215) : error C2373: '_ctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(95)ÿ: voir la d‚claration de '_ctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(217) : error C2373: '_pctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(102)ÿ: voir la d‚claration de '_pctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(218) : error C2373: '_pwctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(103)ÿ: voir la d‚claration de '_pwctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(65) : error C2373: '_ctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(95)ÿ: voir la d‚claration de '_ctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(67) : error C2373: '_pctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(102)ÿ: voir la d‚claration de '_pctype'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(68) : error C2373: '_pwctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(103)ÿ: voir la d‚claration de '_pwctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(547) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+ComputeDerivate.cpp
+DerivateFileParser.h(54) : warning C4005: 'COS_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(79)ÿ: voir la d‚finition pr‚c‚dente de 'COS_TOKEN'
+DerivateFileParser.h(56) : warning C4005: 'DIV_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(95)ÿ: voir la d‚finition pr‚c‚dente de 'DIV_TOKEN'
+DerivateFileParser.h(57) : warning C4005: 'EXP_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(77)ÿ: voir la d‚finition pr‚c‚dente de 'EXP_TOKEN'
+DerivateFileParser.h(59) : warning C4005: 'FLOAT_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(88)ÿ: voir la d‚finition pr‚c‚dente de 'FLOAT_TOKEN'
+DerivateFileParser.h(62) : warning C4005: 'LOG_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(81)ÿ: voir la d‚finition pr‚c‚dente de 'LOG_TOKEN'
+DerivateFileParser.h(69) : warning C4005: 'SIN_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(78)ÿ: voir la d‚finition pr‚c‚dente de 'SIN_TOKEN'
+DerivateFileParser.h(70) : warning C4005: 'SQRT_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(87)ÿ: voir la d‚finition pr‚c‚dente de 'SQRT_TOKEN'
+DerivateFileParser.h(80) : warning C4005: 'ACOS_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(84)ÿ: voir la d‚finition pr‚c‚dente de 'ACOS_TOKEN'
+DerivateFileParser.h(81) : warning C4005: 'ASIN_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(83)ÿ: voir la d‚finition pr‚c‚dente de 'ASIN_TOKEN'
+DerivateFileParser.h(82) : warning C4005: 'TAN_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(80)ÿ: voir la d‚finition pr‚c‚dente de 'TAN_TOKEN'
+DerivateFileParser.h(153) : warning C4005: 'DASH_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(94)ÿ: voir la d‚finition pr‚c‚dente de 'DASH_TOKEN'
+DerivateFileParser.h(176) : warning C4005: 'HAT_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(93)ÿ: voir la d‚finition pr‚c‚dente de 'HAT_TOKEN'
+DerivateFileParser.h(222) : warning C4005: 'PLUS_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(91)ÿ: voir la d‚finition pr‚c‚dente de 'PLUS_TOKEN'
+DerivateFileParser.h(422) : warning C4005: 'ATAN_TOKEN'ÿ: red‚finition de macro
+        FormulaDerivate.h(85)ÿ: voir la d‚finition pr‚c‚dente de 'ATAN_TOKEN'
+DerivateFileParser.cpp
+DerivateFileParser.l.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(547) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(234) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(229)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'std::basic_ostream<_E,_Tr>::_Myt &std::basic_ostream<_E,_Tr>::put(_E)'
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(373)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_ostream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(234) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(229)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'std::basic_ostream<_E,_Tr>::_Myt &std::basic_ostream<_E,_Tr>::put(_E)'
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(379)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_ostream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(46) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(41)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'bool std::basic_istream<_E,_Tr>::ipfx(bool)'
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(544)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_istream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(46) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(41)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'bool std::basic_istream<_E,_Tr>::ipfx(bool)'
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(564)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_istream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\XSTRING(525) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\XSTRING(521)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'void std::basic_string<_E,_Tr,_A>::_Copy(std::basic_string<_E,_Tr,_A>::size_type)'
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>,
+            _A=std::allocator<char>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\stdexcept(29)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_string<_E,_Tr,_A>' en cours de compilation
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>,
+            _A=std::allocator<char>
+        ]
+FormulaDerivate.cpp
+FormulaDerivate.l.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(547) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(234) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(229)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'std::basic_ostream<_E,_Tr>::_Myt &std::basic_ostream<_E,_Tr>::put(_E)'
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(373)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_ostream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(234) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(229)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'std::basic_ostream<_E,_Tr>::_Myt &std::basic_ostream<_E,_Tr>::put(_E)'
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(379)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_ostream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(46) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(41)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'bool std::basic_istream<_E,_Tr>::ipfx(bool)'
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(544)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_istream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(46) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(41)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'bool std::basic_istream<_E,_Tr>::ipfx(bool)'
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(564)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_istream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\XSTRING(525) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\XSTRING(521)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'void std::basic_string<_E,_Tr,_A>::_Copy(std::basic_string<_E,_Tr,_A>::size_type)'
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>,
+            _A=std::allocator<char>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\stdexcept(29)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_string<_E,_Tr,_A>' en cours de compilation
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>,
+            _A=std::allocator<char>
+        ]
+MatrixTransform.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+Noise3D.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+Noise3DGranite.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+Color.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+Dispersion.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+C:\RayArtTan\Sources\RayTracingStd\Dispersion.cpp(5) : warning C4305: 'argument'ÿ: troncation de 'double' … 'const float'
+C:\RayArtTan\Sources\RayTracingStd\Dispersion.cpp(6) : warning C4305: 'argument'ÿ: troncation de 'double' … 'const float'
+C:\RayArtTan\Sources\RayTracingStd\Dispersion.cpp(7) : warning C4305: 'argument'ÿ: troncation de 'double' … 'const float'
+FormulaParser.cpp
+FormulaParser.l.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(547) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(234) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(229)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'std::basic_ostream<_E,_Tr>::_Myt &std::basic_ostream<_E,_Tr>::put(_E)'
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(373)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_ostream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(234) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(229)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'std::basic_ostream<_E,_Tr>::_Myt &std::basic_ostream<_E,_Tr>::put(_E)'
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(379)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_ostream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(46) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(41)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'bool std::basic_istream<_E,_Tr>::ipfx(bool)'
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(544)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_istream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(46) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(41)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'bool std::basic_istream<_E,_Tr>::ipfx(bool)'
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(564)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_istream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\XSTRING(525) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\XSTRING(521)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'void std::basic_string<_E,_Tr,_A>::_Copy(std::basic_string<_E,_Tr,_A>::size_type)'
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>,
+            _A=std::allocator<char>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\stdexcept(29)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_string<_E,_Tr,_A>' en cours de compilation
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>,
+            _A=std::allocator<char>
+        ]
+BaseCamera.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+CamParalPlane.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+CamPersPlane.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+CamSphere.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+CamSuperEllipsoid.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+FileParser.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(95) : error C2373: '_ctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(215)ÿ: voir la d‚claration de '_ctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(102) : error C2373: '_pctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(217)ÿ: voir la d‚claration de '_pctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(103) : error C2373: '_pwctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\wchar.h(218)ÿ: voir la d‚claration de '_pwctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_from_int'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : warning C4391: 'int _m_from_int(int)'ÿ: type de retour incorrect pour la fonction intrinsŠque, 'union' attendu
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packsswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '_m_packsswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packssdw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '_m_packssdw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packuswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '_m_packuswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '_m_punpckhbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '_m_punpckhwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhdq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '_m_punpckhdq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '_m_punpcklbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '_m_punpcklwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckldq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '_m_punpckldq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '_m_paddb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '_m_paddw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '_m_paddd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '_m_paddsb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '_m_paddsw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '_m_paddusb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : fatal error C1003: le nombre d'erreurs est sup‚rieur … 100ÿ; arrˆt de la compilation
+FileParser.l.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(547) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(234) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(229)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'std::basic_ostream<_E,_Tr>::_Myt &std::basic_ostream<_E,_Tr>::put(_E)'
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(373)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_ostream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(234) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(229)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'std::basic_ostream<_E,_Tr>::_Myt &std::basic_ostream<_E,_Tr>::put(_E)'
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\OSTREAM(379)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_ostream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(46) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(41)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'bool std::basic_istream<_E,_Tr>::ipfx(bool)'
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(544)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_istream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(46) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(41)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'bool std::basic_istream<_E,_Tr>::ipfx(bool)'
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\ISTREAM(564)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_istream<_E,_Tr>' en cours de compilation
+        with
+        [
+            _E=wchar_t,
+            _Tr=std::char_traits<wchar_t>
+        ]
+C:\Program Files\Microsoft Visual Studio\VC98\Include\XSTRING(525) : warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\XSTRING(521)ÿ: lors de la compilation de la fonction membre du modŠle de classe 'void std::basic_string<_E,_Tr,_A>::_Copy(std::basic_string<_E,_Tr,_A>::size_type)'
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>,
+            _A=std::allocator<char>
+        ]
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\stdexcept(29)ÿ: voir la r‚f‚rence … l'instanciation du modŠle de classe 'std::basic_string<_E,_Tr,_A>' en cours de compilation
+        with
+        [
+            _E=char,
+            _Tr=std::char_traits<char>,
+            _A=std::allocator<char>
+        ]
+renderingwnd.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\Include\NEW(27) : error C2011: 'std::nothrow_t'ÿ: red‚finition du type 'struct'
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\new.h(94)ÿ: voir la d‚claration de 'std::nothrow_t'
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\useoldio.h(29) : warning C4995: '_OLD_IOSTREAMS_ARE_DEPRECATED'ÿ: le nom a ‚t‚ marqu‚ comme #pragma deprecated
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(95) : error C2373: '_ctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(65)ÿ: voir la d‚claration de '_ctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(102) : error C2373: '_pctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(67)ÿ: voir la d‚claration de '_pctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\WCTYPE.H(103) : error C2373: '_pwctype'ÿ: red‚finitionÿ; modificateurs de type diff‚rents
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\ctype.h(68)ÿ: voir la d‚claration de '_pwctype'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_from_int'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29) : warning C4391: 'int _m_from_int(int)'ÿ: type de retour incorrect pour la fonction intrinsŠque, 'union' attendu
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(30) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packsswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2501: '_m_packsswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(31) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packssdw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2501: '_m_packssdw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(32) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_packuswb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2501: '_m_packuswb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(33) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2501: '_m_punpckhbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(34) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2501: '_m_punpckhwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(35) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckhdq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2501: '_m_punpckhdq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(36) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklbw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2501: '_m_punpcklbw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(37) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpcklwd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2501: '_m_punpcklwd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(38) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_punpckldq'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2501: '_m_punpckldq'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(39) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2501: '_m_paddb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(42) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2501: '_m_paddw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(43) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddd'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2501: '_m_paddd'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(44) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2501: '_m_paddsb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(45) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddsw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2501: '_m_paddsw'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(46) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusb'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2146: erreur de syntaxeÿ: absence de ')' avant l'identificateur 'm1'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2501: '_m_paddusb'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(47) : error C2059: erreur de syntaxeÿ: ')'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2146: erreur de syntaxeÿ: absence de ';' avant l'identificateur '_m_paddusw'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2501: '__m64'ÿ: Sp‚cificateurs de type ou de classe de stockage manquants
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : error C2086: 'int __m64'ÿ: red‚finition
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(29)ÿ: voir la d‚claration de '__m64'
+C:\Program Files\Microsoft Visual Studio\VC98\Include\mmintrin.h(48) : fatal error C1003: le nombre d'erreurs est sup‚rieur … 100ÿ; arrˆt de la compilation
+saverwnd.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\Include\NEW(27) : error C2011: 'std::nothrow_t'ÿ: red‚finition du type 'struct'
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\new.h(94)ÿ: voir la d‚claration de 'std::nothrow_t'
+ScreenSaverDlg.cpp
+c:\RayArtTan\Sources\RayTracingStd\ClassicFunctions.h(30) : warning C4805: '&'ÿ: m‚lange risqu‚ de type 'bool' et de type 'BOOL' dans l'op‚ration
+FontFile.cpp
+FormatGlyph.cpp
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\new.h(94) : error C2011: 'std::nothrow_t'ÿ: red‚finition du type 'struct'
+        C:\Program Files\Microsoft Visual Studio\VC98\Include\NEW(27)ÿ: voir la d‚claration de 'std::nothrow_t'
+TextFont.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\Include\NEW(27) : error C2011: 'std::nothrow_t'ÿ: red‚finition du type 'struct'
+        C:\Program Files\Microsoft Visual Studio .NET\Vc7\include\new.h(94)ÿ: voir la d‚claration de 'std::nothrow_t'
+WRITEAVI.CPP
+C:\RayArtTan\Sources\RayTracingStd\writeavi.cpp(107) : warning C4101: 'szMessage'ÿ: variable locale non r‚f‚renc‚e
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+RayArtTan.exe - 725 error(s), 98 warning(s)
+</pre>
+</body>
+</html>

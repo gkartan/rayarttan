@@ -1,0 +1,176 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8447.0 (099ea97f).
+//
+// traceur.tlh
+//
+// C++ source equivalent of Win32 type library traceur.exe
+// compiler-generated file created 07/22/02 at 17:57:31 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace TRACERLib {
+
+//
+// Forward references and typedefs
+//
+
+struct /* coclass */ TraceCOMObject;
+struct __declspec(uuid("80517bd0-1537-11d4-bf58-0000f879043c"))
+/* dual interface */ ITraceCOMObject;
+struct __declspec(uuid("cbe68e66-0736-11d4-9628-f6dfa6d1ea61"))
+/* dual interface */ ITraceConnectionPoint;
+struct /* coclass */ DirectAccess;
+struct __declspec(uuid("4d8131e7-fc01-11d3-bf4f-0000f879043c"))
+/* dual interface */ IDirectAccess;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ITraceCOMObject, __uuidof(ITraceCOMObject));
+_COM_SMARTPTR_TYPEDEF(ITraceConnectionPoint, __uuidof(ITraceConnectionPoint));
+_COM_SMARTPTR_TYPEDEF(IDirectAccess, __uuidof(IDirectAccess));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("80517bd1-1537-11d4-bf58-0000f879043c"))
+TraceCOMObject;
+    // [ default ] interface ITraceCOMObject
+    // [ default, source ] interface ITraceConnectionPoint
+
+struct __declspec(uuid("80517bd0-1537-11d4-bf58-0000f879043c"))
+ITraceCOMObject : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT Init (
+        _bstr_t ProgName );
+    HRESULT Link (
+        _bstr_t ProgName,
+        _bstr_t ModuleName );
+    HRESULT Trace (
+        short EventType,
+        _bstr_t Text,
+        long Color,
+        _bstr_t Module );
+    HRESULT SetMaxItems (
+        long max );
+    HRESULT TraceRawData (
+        VARIANT * Data,
+        _bstr_t Text,
+        long Color,
+        _bstr_t Module );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_Init (
+        BSTR ProgName ) = 0;
+    virtual HRESULT __stdcall raw_Link (
+        BSTR ProgName,
+        BSTR ModuleName ) = 0;
+    virtual HRESULT __stdcall raw_Trace (
+        short EventType,
+        BSTR Text,
+        long Color,
+        BSTR Module ) = 0;
+    virtual HRESULT __stdcall raw_SetMaxItems (
+        long max ) = 0;
+    virtual HRESULT __stdcall raw_TraceRawData (
+        VARIANT * Data,
+        BSTR Text,
+        long Color,
+        BSTR Module ) = 0;
+};
+
+struct __declspec(uuid("cbe68e66-0736-11d4-9628-f6dfa6d1ea61"))
+ITraceConnectionPoint : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT IsAlive ( );
+    HRESULT InfoTraces (
+        short bSend );
+    HRESULT WarningTraces (
+        short bSend );
+    HRESULT ErrorTraces (
+        short bSend );
+    HRESULT EnterExitTraces (
+        short bSend );
+    HRESULT BinaryTraces (
+        short bSend );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_IsAlive ( ) = 0;
+    virtual HRESULT __stdcall raw_InfoTraces (
+        short bSend ) = 0;
+    virtual HRESULT __stdcall raw_WarningTraces (
+        short bSend ) = 0;
+    virtual HRESULT __stdcall raw_ErrorTraces (
+        short bSend ) = 0;
+    virtual HRESULT __stdcall raw_EnterExitTraces (
+        short bSend ) = 0;
+    virtual HRESULT __stdcall raw_BinaryTraces (
+        short bSend ) = 0;
+};
+
+struct __declspec(uuid("4d8131e8-fc01-11d3-bf4f-0000f879043c"))
+DirectAccess;
+    // [ default ] interface IDirectAccess
+
+struct __declspec(uuid("4d8131e7-fc01-11d3-bf4f-0000f879043c"))
+IDirectAccess : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT LoadTraceFile (
+        _bstr_t FileName );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_LoadTraceFile (
+        BSTR FileName ) = 0;
+};
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_TRACERLib =
+    {0x7fc35f60,0x1537,0x11d4,{0xbf,0x58,0x00,0x00,0xf8,0x79,0x04,0x3c}};
+extern "C" const GUID __declspec(selectany) CLSID_TraceCOMObject =
+    {0x80517bd1,0x1537,0x11d4,{0xbf,0x58,0x00,0x00,0xf8,0x79,0x04,0x3c}};
+extern "C" const GUID __declspec(selectany) IID_ITraceCOMObject =
+    {0x80517bd0,0x1537,0x11d4,{0xbf,0x58,0x00,0x00,0xf8,0x79,0x04,0x3c}};
+extern "C" const GUID __declspec(selectany) IID_ITraceConnectionPoint =
+    {0xcbe68e66,0x0736,0x11d4,{0x96,0x28,0xf6,0xdf,0xa6,0xd1,0xea,0x61}};
+extern "C" const GUID __declspec(selectany) CLSID_DirectAccess =
+    {0x4d8131e8,0xfc01,0x11d3,{0xbf,0x4f,0x00,0x00,0xf8,0x79,0x04,0x3c}};
+extern "C" const GUID __declspec(selectany) IID_IDirectAccess =
+    {0x4d8131e7,0xfc01,0x11d3,{0xbf,0x4f,0x00,0x00,0xf8,0x79,0x04,0x3c}};
+
+//
+// Wrapper method implementations
+//
+
+#include "traceur.tli"
+
+} // namespace TRACERLib
+
+#pragma pack(pop)

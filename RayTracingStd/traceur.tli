@@ -1,0 +1,92 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8447.0 (099ea97f).
+//
+// traceur.tli
+//
+// Wrapper implementations for Win32 type library traceur.exe
+// compiler-generated file created 07/22/02 at 17:57:31 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface ITraceCOMObject wrapper method implementations
+//
+
+inline HRESULT ITraceCOMObject::Init ( _bstr_t ProgName ) {
+    HRESULT _hr = raw_Init(ProgName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITraceCOMObject::Link ( _bstr_t ProgName, _bstr_t ModuleName ) {
+    HRESULT _hr = raw_Link(ProgName, ModuleName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITraceCOMObject::Trace ( short EventType, _bstr_t Text, long Color, _bstr_t Module ) {
+    HRESULT _hr = raw_Trace(EventType, Text, Color, Module);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITraceCOMObject::SetMaxItems ( long max ) {
+    HRESULT _hr = raw_SetMaxItems(max);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITraceCOMObject::TraceRawData ( VARIANT * Data, _bstr_t Text, long Color, _bstr_t Module ) {
+    HRESULT _hr = raw_TraceRawData(Data, Text, Color, Module);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ITraceConnectionPoint wrapper method implementations
+//
+
+inline HRESULT ITraceConnectionPoint::IsAlive ( ) {
+    HRESULT _hr = raw_IsAlive();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITraceConnectionPoint::InfoTraces ( short bSend ) {
+    HRESULT _hr = raw_InfoTraces(bSend);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITraceConnectionPoint::WarningTraces ( short bSend ) {
+    HRESULT _hr = raw_WarningTraces(bSend);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITraceConnectionPoint::ErrorTraces ( short bSend ) {
+    HRESULT _hr = raw_ErrorTraces(bSend);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITraceConnectionPoint::EnterExitTraces ( short bSend ) {
+    HRESULT _hr = raw_EnterExitTraces(bSend);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITraceConnectionPoint::BinaryTraces ( short bSend ) {
+    HRESULT _hr = raw_BinaryTraces(bSend);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IDirectAccess wrapper method implementations
+//
+
+inline HRESULT IDirectAccess::LoadTraceFile ( _bstr_t FileName ) {
+    HRESULT _hr = raw_LoadTraceFile(FileName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
